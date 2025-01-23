@@ -32,7 +32,7 @@ missav:
 <img src="./images/missav-video-zh.png" width="20%" height="20%">
 <img src="./images/missav-video-zh.png" width="20%" height="20%">
 </div>
-jable.tv:
+<!-- jable.tv:
 <div align="center">    
 <img src="./images/missav-home-zh.png" width="20%" height="20%">
 <img src="./images/missav-home-en.png" width="20%" height="20%">
@@ -45,7 +45,7 @@ pornhub:
 <img src="./images/missav-home-en.png" width="20%" height="20%">
 <img src="./images/missav-video-zh.png" width="20%" height="20%">
 <img src="./images/missav-video-zh.png" width="20%" height="20%">
-</div>
+</div> -->
 
 ## 下载链接
 

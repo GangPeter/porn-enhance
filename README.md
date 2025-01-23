@@ -9,7 +9,11 @@
 
 ## 脚本简介
 
-50+项功能、定制属于你的界面、去除 MissAV | Jable.TV | Pornhub 广告、拦截弹窗、拦截失焦暂停、修复布局、显示完整标题、显示m3u8、自定义视频加载数量、加载更多视频、自动转跳无码片源、自动最高画质、支持 PC 端|移动端
+支持中文和英文。支持网站 missav | jable.tv | pornhub。50+项功能、去除大部分广告（横幅、弹窗、视频内、新窗口）、自定义界面布局、隐私模式（模糊视频图片、标题）、显示完整标题、显示m3u8、自定义视频加载数量、自动登录、自动转跳无码片源、自动最高画质。支持 PC端 | 移动端。
+
+支持中文和英文。支持網站 missav | jable.tv | pornhub。50+項功能、去除大部分廣告（橫幅、彈窗、視頻內、新窗口）、自定義界面布局、隱私模式（模糊視頻圖片、標題）、顯示完整標題、顯示m3u8、自定義視頻加載數量、自動登錄、自動轉跳無碼片源、自動最高畫質。支持 PC端 | 移動端。
+
+Supported Chinese and English. Supported missav | jable.tv | pornhub. 50+ features, Remove Most ads (banner, popup, video, window), Custom Layout, Privacy Mode (Blur Video Image, Title), Display Video Full-Title, Get and Display m3u8, Custom Video Load Number, Automatic Login, Automatic Switch Uncensored, Automatic Switch Highest Video Quality. Supported PC | mobile.
 
 ## 支持网址
 
@@ -21,11 +25,31 @@
 
 ## 功能预览
 
-![](./images/porn.png)
+missav:
+<div align="center">    
+<img src="./images/missav-home-zh.png" width="20%" height="20%">
+<img src="./images/missav-home-en.png" width="20%" height="20%">
+<img src="./images/missav-video-zh.png" width="20%" height="20%">
+<img src="./images/missav-video-zh.png" width="20%" height="20%">
+</div>
+jable.tv:
+<div align="center">    
+<img src="./images/missav-home-zh.png" width="20%" height="20%">
+<img src="./images/missav-home-en.png" width="20%" height="20%">
+<img src="./images/missav-video-zh.png" width="20%" height="20%">
+<img src="./images/missav-video-zh.png" width="20%" height="20%">
+</div>
+pornhub:
+<div align="center">    
+<img src="./images/missav-home-zh.png" width="20%" height="20%">
+<img src="./images/missav-home-en.png" width="20%" height="20%">
+<img src="./images/missav-video-zh.png" width="20%" height="20%">
+<img src="./images/missav-video-zh.png" width="20%" height="20%">
+</div>
 
 ## 下载链接
 
--   [Github](https://raw.githubusercontent.com/GangPeter/pgscript/refs/heads/main/dist/porn.js)
+-   [Github](https://raw.githubusercontent.com/GangPeter/porn-enhance/refs/heads/main/dist/porn.js)
 -   [GreasyFork](https://greasyfork.org/scripts/519635) (需登录账号)
 -   [SleazyFork](https://sleazyfork.org/scripts/519635)
 
@@ -49,12 +73,12 @@
 
 ### 4. 未来功能
 
-- [ ] ~~多语言~~
-- [ ] ~~支持更多网址~~
+-   [ ] ~~多语言~~
+-   [ ] ~~支持更多网址~~
 
 ### 5. 更多功能
 
--   请在[GreasyFork 反馈区](https://greasyfork.org/scripts/519635/feedback) or [Github Issues](https://github.com/GangPeter/pgscript/issues)提出建议
+-   请在[GreasyFork 反馈区](https://greasyfork.org/scripts/519635/feedback) or [Github Issues](https://github.com/GangPeter/porn-enhance/issues)提出建议
 
 ## 鸣谢
 

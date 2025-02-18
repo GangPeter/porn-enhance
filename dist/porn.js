@@ -4,7 +4,7 @@
 // @name:zh-TW         老司機修煉手冊
 // @name:en            PornEnhance
 // @namespace          http://github.com/GangPeter
-// @version            4.0.0
+// @version            4.0.1
 // @author             GangPeter
 // @description        支持网站 missav | jable.tv | pornhub | 18comic | 91porn | 91porna。100+项功能、去除大部分广告（横幅、弹窗、视频内、新窗口）、自定义界面布局、隐私模式（模糊视频图片、标题）、显示完整标题、显示m3u8、自定义视频加载数量、自动登录、自动转跳无码片源、自动最高画质。支持 PC端 | 移动端。
 // @description:zh-HK  支持網站 missav | jable.tv | pornhub | 18comic | 91porn | 91porna。100+項功能、去除大部分廣告（橫幅、彈窗、視頻內、新窗口）、自定義界面布局、隱私模式（模糊視頻圖片、標題）、顯示完整標題、顯示m3u8、自定義視頻加載數量、自動登錄、自動轉跳無碼片源、自動最高畫質。支持 PC端 | 移動端。
@@ -25,6 +25,22 @@
 // @match              *://*.18comic.vip/*
 // @match              *://*.91porn.com/*
 // @match              *://*.91porna.com/*
+// @match              *://*.xvideos.com/*
+// @match              https://xhamster.com/
+// @match              https://www.xnxx.com/
+// @match              https://www.eporner.com/
+// @match              https://netflav.com/
+// @match              https://18av.mm-cg.com/
+// @match              https://www.pornbest.org/
+// @match              https://porn87.com/
+// @match              https://goodav17.com/
+// @match              https://av6k.com/
+// @match              https://www.buzzav.com/
+// @match              https://j-av.com/
+// @match              https://www.jav777.cc/
+// @match              https://airav.io/
+// @match              https://avtop10.com/
+// @match              https://supjav.com/
 // @require            https://registry.npmmirror.com/vue/3.5.13/files/dist/vue.global.prod.js
 // @grant              GM_addStyle
 // @grant              GM_getValue
@@ -1181,7 +1197,7 @@
       return e$1.h(e$1.Fragment, [e2 != null && t2.value != null ? e$1.h(f$2, E$1({ features: u$2.Hidden, as: "input", type: "checkbox", hidden: true, readOnly: true, checked: t2.value, form: K2, disabled: b2.disabled, name: e2, value: a2 })) : null, A$1({ ourProps: B, theirProps: { ...i2, ...T$1(b2, ["modelValue", "defaultChecked"]) }, slot: T2, attrs: i2, slots: r2, name: "Switch" })]);
     };
   } }), de = K;
-  function render$2(_ctx, _cache) {
+  function render$3(_ctx, _cache) {
     return e$1.openBlock(), e$1.createElementBlock("svg", {
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 20 20",
@@ -1196,7 +1212,7 @@
       })
     ]);
   }
-  function render$1(_ctx, _cache) {
+  function render$2(_ctx, _cache) {
     return e$1.openBlock(), e$1.createElementBlock("svg", {
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 20 20",
@@ -1211,7 +1227,7 @@
       })
     ]);
   }
-  function render(_ctx, _cache) {
+  function render$1(_ctx, _cache) {
     return e$1.openBlock(), e$1.createElementBlock("svg", {
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 20 20",
@@ -1226,7 +1242,7 @@
       })
     ]);
   }
-  const _hoisted_1$b = { class: "mt-2.5 h-auto w-full px-3.5 text-base font-bold text-[#c6c6c6]" };
+  const _hoisted_1$c = { class: "mt-2.5 h-auto w-full px-3.5 text-base font-bold text-[#c6c6c6]" };
   const _hoisted_2$a = {
     key: 0,
     class: "absolute right-20 inline-block rounded-xl bg-[#ff9000] px-2 text-sm text-black"
@@ -1240,7 +1256,7 @@
     },
     setup(__props) {
       return (_ctx, _cache) => {
-        return e$1.openBlock(), e$1.createElementBlock("div", _hoisted_1$b, [
+        return e$1.openBlock(), e$1.createElementBlock("div", _hoisted_1$c, [
           e$1.createVNode(e$1.unref(N), {
             "default-open": !_ctx.isFold
           }, {
@@ -1255,7 +1271,7 @@
                 default: e$1.withCtx(() => [
                   e$1.createElementVNode("span", null, e$1.toDisplayString(_ctx.title || "Disclosure Title"), 1),
                   _ctx.isSpecial ? (e$1.openBlock(), e$1.createElementBlock("span", _hoisted_2$a, "SPECIAL")) : e$1.createCommentVNode("", true),
-                  e$1.createVNode(e$1.unref(render$1), {
+                  e$1.createVNode(e$1.unref(render$2), {
                     class: e$1.normalizeClass([{
                       "rotate-180": open
                     }, "h-6 w-6"])
@@ -2078,9 +2094,9 @@
     }
     return { width, height };
   }
-  const _hoisted_1$a = { class: "font-serif text-xl text-white" };
+  const _hoisted_1$b = { class: "font-serif text-xl text-white" };
   const _hoisted_2$9 = { class: "mb-2 text-xl font-semibold" };
-  const _hoisted_3$4 = { class: "text-white" };
+  const _hoisted_3$5 = { class: "text-white" };
   const _hoisted_4$4 = { class: "rounded-md bg-[#ff9000] p-1 text-black" };
   const _hoisted_5$2 = { class: "no-scrollbar flex min-h-[calc(100%-2.5rem)] flex-1 flex-col p-2" };
   const _sfc_main$b = /* @__PURE__ */ e$1.defineComponent({
@@ -2153,9 +2169,9 @@
             ref: bar,
             class: "sticky top-0 z-10 w-full cursor-move bg-[#0e0e0e] py-1.5 text-center"
           }, [
-            e$1.createElementVNode("div", _hoisted_1$a, [
+            e$1.createElementVNode("div", _hoisted_1$b, [
               e$1.createElementVNode("h3", _hoisted_2$9, [
-                e$1.createElementVNode("span", _hoisted_3$4, e$1.toDisplayString(_ctx.title.split("&")[0]), 1),
+                e$1.createElementVNode("span", _hoisted_3$5, e$1.toDisplayString(_ctx.title.split("&")[0]), 1),
                 e$1.createElementVNode("span", _hoisted_4$4, e$1.toDisplayString(_ctx.title.split("&")[1]), 1)
               ])
             ]),
@@ -2186,7 +2202,7 @@
       };
     }
   });
-  const _hoisted_1$9 = {
+  const _hoisted_1$a = {
     key: 0,
     class: "mb-1.5"
   };
@@ -2199,7 +2215,7 @@
     setup(__props) {
       return (_ctx, _cache) => {
         var _a;
-        return ((_a = _ctx.description) == null ? undefined : _a.length) ? (e$1.openBlock(), e$1.createElementBlock("div", _hoisted_1$9, [
+        return ((_a = _ctx.description) == null ? undefined : _a.length) ? (e$1.openBlock(), e$1.createElementBlock("div", _hoisted_1$a, [
           e$1.createElementVNode("div", _hoisted_2$8, [
             (e$1.openBlock(true), e$1.createElementBlock(e$1.Fragment, null, e$1.renderList(_ctx.description, (line, index) => {
               return e$1.openBlock(), e$1.createElementBlock("div", { key: index }, [
@@ -2796,8 +2812,8 @@
   const isPage91PornV = () => ans() === "91porn-v";
   const isPage91Porna = () => ans() === "91porna" || ans().startsWith("91porna-");
   const languages = {
-    "zh-cn": language$1,
-    "en-us": language
+    "zh-CN": language$1,
+    "en-US": language
   };
   class I18n {
     constructor(lang2) {
@@ -2815,14 +2831,14 @@
       }
     }
   }
-  let lang = PGStorage.get("language", "zh-cn");
+  let lang = PGStorage.get("language", "zh-CN");
   if (!isPageMissAv()) {
-    lang = "zh-cn";
+    lang = "zh-CN";
   }
   const i18n = new I18n(lang);
-  const _hoisted_1$8 = { class: "flex w-full flex-1 flex-row rounded-xl p-3.5 hover:bg-[#2f2f2f]" };
+  const _hoisted_1$9 = { class: "flex w-full flex-1 flex-row rounded-xl p-3.5 hover:bg-[#2f2f2f]" };
   const _hoisted_2$7 = { class: "ml-2 flex-1 self-center" };
-  const _hoisted_3$3 = { class: "mx-2 mb-2 flex flex-1 flex-col p-1 text-[#c6c6c6]" };
+  const _hoisted_3$4 = { class: "mx-2 mb-2 flex flex-1 flex-col p-1 text-[#c6c6c6]" };
   const _hoisted_4$3 = ["placeholder"];
   const _hoisted_5$1 = { class: "mt-4 flex justify-around" };
   const _sfc_main$9 = /* @__PURE__ */ e$1.defineComponent({
@@ -2862,7 +2878,7 @@
       return (_ctx, _cache) => {
         var _a;
         return e$1.openBlock(), e$1.createElementBlock(e$1.Fragment, null, [
-          e$1.createElementVNode("label", _hoisted_1$8, [
+          e$1.createElementVNode("label", _hoisted_1$9, [
             e$1.createElementVNode("span", _hoisted_2$7, e$1.toDisplayString(_ctx.name), 1),
             e$1.createElementVNode("button", {
               type: "button",
@@ -2894,7 +2910,7 @@
             default: e$1.withCtx(() => {
               var _a2;
               return [
-                e$1.createElementVNode("div", _hoisted_3$3, [
+                e$1.createElementVNode("div", _hoisted_3$4, [
                   ((_a2 = _ctx.editorDescription) == null ? undefined : _a2.length) ? (e$1.openBlock(), e$1.createBlock(_sfc_main$a, {
                     key: 0,
                     class: "mb-3",
@@ -2933,9 +2949,9 @@
       };
     }
   });
-  const _hoisted_1$7 = { class: "flex items-center justify-between p-3.5 py-1" };
+  const _hoisted_1$8 = { class: "flex items-center justify-between p-3.5 py-1" };
   const _hoisted_2$6 = { class: "ml-2 text-white" };
-  const _hoisted_3$2 = { class: "relative w-2/5" };
+  const _hoisted_3$3 = { class: "relative w-2/5" };
   const _hoisted_4$2 = { class: "block truncate text-gray-200" };
   const _hoisted_5 = { class: "pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2" };
   const _hoisted_6 = {
@@ -2983,19 +2999,19 @@
       return (_ctx, _cache) => {
         var _a;
         return e$1.openBlock(), e$1.createElementBlock(e$1.Fragment, null, [
-          e$1.createElementVNode("div", _hoisted_1$7, [
+          e$1.createElementVNode("div", _hoisted_1$8, [
             e$1.createElementVNode("div", _hoisted_2$6, e$1.toDisplayString(_ctx.name), 1),
             e$1.createVNode(e$1.unref(Ie), {
               modelValue: selectedOption.value,
               "onUpdate:modelValue": _cache[0] || (_cache[0] = ($event) => selectedOption.value = $event)
             }, {
               default: e$1.withCtx(() => [
-                e$1.createElementVNode("div", _hoisted_3$2, [
+                e$1.createElementVNode("div", _hoisted_3$3, [
                   e$1.createVNode(e$1.unref(je), { class: "relative w-full cursor-pointer rounded-2xl border-2 border-[#212121] bg-[#151515] px-2.5 py-1.5 text-left focus:bg-[#212121] focus:outline-none sm:text-sm" }, {
                     default: e$1.withCtx(() => [
                       e$1.createElementVNode("span", _hoisted_4$2, e$1.toDisplayString(selectedOption.value.name), 1),
                       e$1.createElementVNode("span", _hoisted_5, [
-                        e$1.createVNode(e$1.unref(render), {
+                        e$1.createVNode(e$1.unref(render$1), {
                           class: "h-5 w-5 text-gray-600",
                           "aria-hidden": "true"
                         })
@@ -3028,7 +3044,7 @@
                                     class: e$1.normalizeClass([selected ? "font-medium" : "font-normal", "block truncate"])
                                   }, e$1.toDisplayString(option.name), 3),
                                   selected ? (e$1.openBlock(), e$1.createElementBlock("span", _hoisted_6, [
-                                    e$1.createVNode(e$1.unref(render$2), {
+                                    e$1.createVNode(e$1.unref(render$3), {
                                       class: "h-5 w-5",
                                       "aria-hidden": "true"
                                     })
@@ -3058,9 +3074,9 @@
       };
     }
   });
-  const _hoisted_1$6 = { class: "flex items-center p-3.5" };
+  const _hoisted_1$7 = { class: "flex items-center p-3.5" };
   const _hoisted_2$5 = { class: "ml-2" };
-  const _hoisted_3$1 = ["step"];
+  const _hoisted_3$2 = ["step"];
   const _hoisted_4$1 = {
     key: 0,
     class: "ml-2"
@@ -3120,7 +3136,7 @@
       return (_ctx, _cache) => {
         var _a;
         return e$1.openBlock(), e$1.createElementBlock(e$1.Fragment, null, [
-          e$1.createElementVNode("div", _hoisted_1$6, [
+          e$1.createElementVNode("div", _hoisted_1$7, [
             e$1.createElementVNode("div", _hoisted_2$5, e$1.toDisplayString(_ctx.name), 1),
             e$1.withDirectives(e$1.createElementVNode("input", {
               type: "number",
@@ -3129,7 +3145,7 @@
               onKeydown: _cache[1] || (_cache[1] = e$1.withModifiers(() => {
               }, ["stop"])),
               class: "ml-4 block flex-1 w-1/5 rounded-2xl border-2 border-[#212121] bg-[#151515] px-2.5 py-1.5 text-sm outline-none invalid:border-red-500 focus:bg-[#212121] focus:invalid:border-red-500"
-            }, null, 40, _hoisted_3$1), [
+            }, null, 40, _hoisted_3$2), [
               [e$1.vModelText, currValue.value]
             ]),
             _ctx.addonText ? (e$1.openBlock(), e$1.createElementBlock("div", _hoisted_4$1, e$1.toDisplayString(_ctx.addonText), 1)) : e$1.createCommentVNode("", true)
@@ -3143,7 +3159,7 @@
       };
     }
   });
-  const _hoisted_1$5 = { class: "flex items-center p-3.5" };
+  const _hoisted_1$6 = { class: "flex items-center p-3.5" };
   const _hoisted_2$4 = { class: "ml-2" };
   const _sfc_main$6 = /* @__PURE__ */ e$1.defineComponent({
     __name: "StringComp",
@@ -3190,7 +3206,7 @@
       return (_ctx, _cache) => {
         var _a;
         return e$1.openBlock(), e$1.createElementBlock(e$1.Fragment, null, [
-          e$1.createElementVNode("div", _hoisted_1$5, [
+          e$1.createElementVNode("div", _hoisted_1$6, [
             e$1.createElementVNode("div", _hoisted_2$4, e$1.toDisplayString(_ctx.name), 1),
             e$1.withDirectives(e$1.createElementVNode("input", {
               type: "text",
@@ -3210,7 +3226,7 @@
       };
     }
   });
-  const _hoisted_1$4 = { class: "flex items-center" };
+  const _hoisted_1$5 = { class: "flex items-center" };
   const _hoisted_2$3 = { class: "ml-2 flex-1" };
   const _sfc_main$5 = /* @__PURE__ */ e$1.defineComponent({
     __name: "SwitchComp",
@@ -3260,7 +3276,7 @@
         return e$1.openBlock(), e$1.createElementBlock(e$1.Fragment, null, [
           e$1.createVNode(e$1.unref(oe), { class: "w-full rounded-xl p-3.5 hover:bg-[#212121]" }, {
             default: e$1.withCtx(() => [
-              e$1.createElementVNode("div", _hoisted_1$4, [
+              e$1.createElementVNode("div", _hoisted_1$5, [
                 e$1.createVNode(e$1.unref(de), { class: "flex flex-1 flex-row" }, {
                   default: e$1.withCtx(() => [
                     e$1.createElementVNode("p", _hoisted_2$3, e$1.toDisplayString(_ctx.name), 1),
@@ -3292,12 +3308,31 @@
       };
     }
   });
+  const _hoisted_1$4 = {
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 1207.76 1177.927"
+  };
+  function render(_ctx, _cache) {
+    return e$1.openBlock(), e$1.createElementBlock("svg", _hoisted_1$4, _cache[0] || (_cache[0] = [
+      e$1.createElementVNode("path", {
+        fill: "#171516",
+        d: "M603.88 0C270.41 0 0 270.35 0 603.87c0 266.81 173.03 493.17 412.97 573.021 30.18 5.59 41.26-13.101 41.26-29.051 0-14.402-.56-61.968-.82-112.429-168 36.527-203.45-71.25-203.45-71.25-27.47-69.801-67.05-88.363-67.05-88.363-54.79-37.481 4.13-36.711 4.13-36.711 60.64 4.257 92.57 62.238 92.57 62.238 53.86 92.316 141.27 65.625 175.73 50.195 5.42-39.023 21.07-65.676 38.34-80.754-134.13-15.261-275.13-67.051-275.13-298.436 0-65.93 23.59-119.8 62.22-162.09-6.27-15.22-26.94-76.63 5.85-159.81 0 0 50.72-16.23 166.11 61.91 48.17-13.39 99.83-20.1 151.15-20.33 51.32.23 103.02 6.94 151.28 20.33 115.26-78.14 165.9-61.91 165.9-61.91 32.87 83.18 12.19 144.59 5.92 159.81 38.73 42.29 62.15 96.16 62.15 162.09 0 231.944-141.27 283.007-275.74 297.96 21.66 18.738 40.96 55.488 40.96 111.832 0 80.797-.7 145.828-.7 165.718 0 16.071 10.87 34.899 41.48 28.969 239.81-79.937 412.63-306.219 412.63-572.939C1207.76 270.35 937.38 0 603.88 0"
+      }, null, -1),
+      e$1.createElementVNode("path", {
+        fill: "#171516",
+        d: "M228.72 867.028c-1.33 3.008-6.05 3.906-10.35 1.844-4.38-1.973-6.83-6.063-5.42-9.071 1.3-3.086 6.03-3.945 10.4-1.886 4.39 1.972 6.89 6.105 5.37 9.113M253.19 894.313c-2.89 2.664-8.52 1.426-12.34-2.793-3.95-4.211-4.69-9.844-1.77-12.551 2.97-2.664 8.43-1.414 12.39 2.793 3.95 4.258 4.72 9.844 1.72 12.551M276.99 929.087c-3.7 2.578-9.75.168-13.49-5.204-3.7-5.371-3.7-11.816.09-14.394 3.74-2.578 9.7-.254 13.49 5.066 3.69 5.461 3.69 11.907-.09 14.532M309.61 962.688c-3.31 3.652-10.36 2.672-15.52-2.308-5.28-4.872-6.74-11.782-3.43-15.43 3.36-3.66 10.45-2.629 15.64 2.308 5.24 4.864 6.84 11.821 3.31 15.43M354.61 982.2c-1.46 4.73-8.25 6.879-15.09 4.871-6.83-2.07-11.3-7.609-9.92-12.391 1.42-4.761 8.24-7 15.13-4.851 6.82 2.062 11.3 7.562 9.88 12.371M404.04 985.821c.16 4.98-5.64 9.109-12.82 9.199-7.21.16-13.06-3.871-13.14-8.769 0-5.032 5.67-9.121 12.89-9.243 7.18-.136 13.07 3.864 13.07 8.813M450.02 977.989c.86 4.859-4.13 9.851-11.26 11.18-7.01 1.281-13.49-1.719-14.39-6.539-.87-4.981 4.21-9.969 11.21-11.258 7.14-1.242 13.53 1.679 14.44 6.617"
+      }, null, -1)
+    ]));
+  }
+  const GitHubIcon = { render };
   const _hoisted_1$3 = { class: "mt-5 flex justify-center space-x-5" };
   const _hoisted_2$2 = ["href"];
+  const _hoisted_3$1 = ["href"];
   const _sfc_main$4 = /* @__PURE__ */ e$1.defineComponent({
     __name: "AboutMeComp",
     props: {
-      github: {}
+      github: {},
+      greasyFork: {}
     },
     setup(__props) {
       return (_ctx, _cache) => {
@@ -3321,6 +3356,15 @@
                 })
               ], -1)
             ]), 8, _hoisted_2$2)
+          ]),
+          e$1.createElementVNode("li", null, [
+            e$1.createElementVNode("a", {
+              href: _ctx.greasyFork,
+              target: "_blank",
+              class: "text-gray-400 hover:text-white"
+            }, [
+              e$1.createVNode(e$1.unref(GitHubIcon))
+            ], 8, _hoisted_3$1)
           ])
         ]);
       };
@@ -3351,7 +3395,8 @@
     props: {
       rules: {},
       title: {},
-      github: {}
+      github: {},
+      greasyFork: {}
     },
     setup(__props) {
       const props = __props;
@@ -3400,7 +3445,7 @@
                 }), 128))
               ]);
             }), 64)),
-            e$1.createVNode(_sfc_main$4, e$1.normalizeProps(e$1.guardReactiveProps({ github: _ctx.github })), null, 16)
+            e$1.createVNode(_sfc_main$4, e$1.normalizeProps(e$1.guardReactiveProps({ github: _ctx.github, greasyFork: _ctx.greasyFork })), null, 16)
           ]),
           _: 1
         }, 16, ["onClose"])), [
@@ -4574,7 +4619,7 @@
           var _a;
           log("alpine:initialized");
           const iframes = document.querySelectorAll("iframe[data-src]");
-          for (let iframe of iframes) {
+          for (const iframe of iframes) {
             iframe.remove();
             log("remove iframe");
           }
@@ -4806,7 +4851,7 @@
       noStyle: true,
       enableFn: () => {
         document.addEventListener("alpine:init", () => {
-          let quantity = PGStorage.get(
+          const quantity = PGStorage.get(
             "missav-home-page-video-recommended-video-quantity-load-number"
           );
           _unsafeWindow.recommendedQuantity = parseInt(quantity) || 4;
@@ -6667,7 +6712,8 @@
           e$1.createVNode(_sfc_main$3, e$1.normalizeProps(e$1.guardReactiveProps({
             rules: e$1.unref(rules),
             title: e$1.unref(i18n).language.title,
-            github: "http://github.com/GangPeter"
+            github: "http://github.com/GangPeter",
+            greasyFork: "https://greasyfork.org/users/105051"
           })), null, 16),
           e$1.createVNode(_sfc_main$2)
         ]);

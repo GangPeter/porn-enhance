@@ -9,11 +9,11 @@
 
 ## 脚本简介
 
-支持中文和英文。支持网站 missav | jable.tv | pornhub | 18comic | 91porn | 91porna。100+项功能、去除大部分广告（横幅、弹窗、视频内、新窗口）、自定义界面布局、隐私模式（模糊视频图片、标题）、显示完整标题、显示m3u8、自定义视频加载数量、自动登录、自动转跳无码片源、自动最高画质。支持 PC端 | 移动端。
+支持中文和英文。支持网站 missav | jable.tv | pornhub | 18comic | 91porn | 91porna | xvideos。100+项功能、去除大部分广告（横幅、弹窗、视频内、新窗口）、自定义界面布局、隐私模式（模糊视频图片、标题）、显示完整标题、显示m3u8、自定义视频加载数量、自动登录、自动转跳无码片源、自动最高画质。支持 PC端 | 移动端。
 
-支持中文和英文。支持網站 missav | jable.tv | pornhub | 18comic | 91porn | 91porna。100+項功能、去除大部分廣告（橫幅、彈窗、視頻內、新窗口）、自定義界面布局、隱私模式（模糊視頻圖片、標題）、顯示完整標題、顯示m3u8、自定義視頻加載數量、自動登錄、自動轉跳無碼片源、自動最高畫質。支持 PC端 | 移動端。
+支持中文和英文。支持網站 missav | jable.tv | pornhub | 18comic | 91porn | 91porna | xvideos。100+項功能、去除大部分廣告（橫幅、彈窗、視頻內、新窗口）、自定義界面布局、隱私模式（模糊視頻圖片、標題）、顯示完整標題、顯示m3u8、自定義視頻加載數量、自動登錄、自動轉跳無碼片源、自動最高畫質。支持 PC端 | 移動端。
 
-Supported Chinese and English. Supported missav | jable.tv | pornhub | 18comic | 91porn | 91porna.100+ features, Remove Most ads (banner, popup, video, window), Custom Layout, Privacy Mode (Blur Video Image, Title), Display Video Full-Title, Get and Display m3u8, Custom Video Load Number, Automatic Login, Automatic Switch Uncensored, Automatic Switch Highest Video Quality. Supported PC | mobile.
+Supported Chinese and English. Supported missav | jable.tv | pornhub | 18comic | 91porn | 91porna | xvideos. 100+ features, Remove Most ads (banner, popup, video, window), Custom Layout, Privacy Mode (Blur Video Image, Title), Display Video Full-Title, Get and Display m3u8, Custom Video Load Number, Automatic Login, Automatic Switch Uncensored, Automatic Switch Highest Video Quality. Supported PC | mobile.
 
 ## 支持网址
 
@@ -26,6 +26,7 @@ Supported Chinese and English. Supported missav | jable.tv | pornhub | 18comic |
 | 18comic  | https://18comic.vip |
 | 91porn   | https://91porn.com  |
 | 91porna  | https://91porna.com |
+| xvideos  | https://xvideos.com |
 
 ## 功能预览
 

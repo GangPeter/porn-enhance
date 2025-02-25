@@ -4,12 +4,12 @@
 // @name:zh-TW         老司機修煉手冊
 // @name:en            PornEnhance
 // @namespace          http://github.com/GangPeter
-// @version            4.0.1
+// @version            4.0.2
 // @author             GangPeter
-// @description        支持网站 missav | jable.tv | pornhub | 18comic | 91porn | 91porna。100+项功能、去除大部分广告（横幅、弹窗、视频内、新窗口）、自定义界面布局、隐私模式（模糊视频图片、标题）、显示完整标题、显示m3u8、自定义视频加载数量、自动登录、自动转跳无码片源、自动最高画质。支持 PC端 | 移动端。
-// @description:zh-HK  支持網站 missav | jable.tv | pornhub | 18comic | 91porn | 91porna。100+項功能、去除大部分廣告（橫幅、彈窗、視頻內、新窗口）、自定義界面布局、隱私模式（模糊視頻圖片、標題）、顯示完整標題、顯示m3u8、自定義視頻加載數量、自動登錄、自動轉跳無碼片源、自動最高畫質。支持 PC端 | 移動端。
-// @description:zh-TW  支持網站 missav | jable.tv | pornhub | 18comic | 91porn | 91porna。100+項功能、去除大部分廣告（橫幅、彈窗、視頻內、新窗口）、自定義界面布局、隱私模式（模糊視頻圖片、標題）、顯示完整標題、顯示m3u8、自定義視頻加載數量、自動登錄、自動轉跳無碼片源、自動最高畫質。支持 PC端 | 移動端。
-// @description:en     Supported missav | jable.tv | pornhub | 18comic | 91porn | 91porna. 100+ features, Remove Most ads (banner, popup, video, window), Custom Layout, Privacy Mode (Blur Video Image, Title), Display Video Full-Title, Get and Display m3u8, Custom Video Load Number, Automatic Login, Automatic Switch Uncensored, Automatic Switch Highest Video Quality. Supported PC | mobile.
+// @description        支持网站 missav | jable.tv | pornhub | 18comic | 91porn | 91porna | xvideos。100+项功能、去除大部分广告（横幅、弹窗、视频内、新窗口）、自定义界面布局、隐私模式（模糊视频图片、标题）、显示完整标题、显示m3u8、自定义视频加载数量、自动登录、自动转跳无码片源、自动最高画质。支持 PC端 | 移动端。
+// @description:zh-HK  支持網站 missav | jable.tv | pornhub | 18comic | 91porn | 91porna | xvideos。100+項功能、去除大部分廣告（橫幅、彈窗、視頻內、新窗口）、自定義界面布局、隱私模式（模糊視頻圖片、標題）、顯示完整標題、顯示m3u8、自定義視頻加載數量、自動登錄、自動轉跳無碼片源、自動最高畫質。支持 PC端 | 移動端。
+// @description:zh-TW  支持網站 missav | jable.tv | pornhub | 18comic | 91porn | 91porna | xvideos。100+項功能、去除大部分廣告（橫幅、彈窗、視頻內、新窗口）、自定義界面布局、隱私模式（模糊視頻圖片、標題）、顯示完整標題、顯示m3u8、自定義視頻加載數量、自動登錄、自動轉跳無碼片源、自動最高畫質。支持 PC端 | 移動端。
+// @description:en     Supported missav | jable.tv | pornhub | 18comic | 91porn | 91porna | xvideos. 100+ features, Remove Most ads (banner, popup, video, window), Custom Layout, Privacy Mode (Blur Video Image, Title), Display Video Full-Title, Get and Display m3u8, Custom Video Load Number, Automatic Login, Automatic Switch Uncensored, Automatic Switch Highest Video Quality. Supported PC | mobile.
 // @license            None
 // @icon               https://missav.ws/favicon.ico
 // @homepageURL        https://github.com/GangPeter/porn-enhance
@@ -26,21 +26,6 @@
 // @match              *://*.91porn.com/*
 // @match              *://*.91porna.com/*
 // @match              *://*.xvideos.com/*
-// @match              https://xhamster.com/
-// @match              https://www.xnxx.com/
-// @match              https://www.eporner.com/
-// @match              https://netflav.com/
-// @match              https://18av.mm-cg.com/
-// @match              https://www.pornbest.org/
-// @match              https://porn87.com/
-// @match              https://goodav17.com/
-// @match              https://av6k.com/
-// @match              https://www.buzzav.com/
-// @match              https://j-av.com/
-// @match              https://www.jav777.cc/
-// @match              https://airav.io/
-// @match              https://avtop10.com/
-// @match              https://supjav.com/
 // @require            https://registry.npmmirror.com/vue/3.5.13/files/dist/vue.global.prod.js
 // @grant              GM_addStyle
 // @grant              GM_getValue
@@ -1197,7 +1182,7 @@
       return e$1.h(e$1.Fragment, [e2 != null && t2.value != null ? e$1.h(f$2, E$1({ features: u$2.Hidden, as: "input", type: "checkbox", hidden: true, readOnly: true, checked: t2.value, form: K2, disabled: b2.disabled, name: e2, value: a2 })) : null, A$1({ ourProps: B, theirProps: { ...i2, ...T$1(b2, ["modelValue", "defaultChecked"]) }, slot: T2, attrs: i2, slots: r2, name: "Switch" })]);
     };
   } }), de = K;
-  function render$3(_ctx, _cache) {
+  function render$2(_ctx, _cache) {
     return e$1.openBlock(), e$1.createElementBlock("svg", {
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 20 20",
@@ -1212,7 +1197,7 @@
       })
     ]);
   }
-  function render$2(_ctx, _cache) {
+  function render$1(_ctx, _cache) {
     return e$1.openBlock(), e$1.createElementBlock("svg", {
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 20 20",
@@ -1227,7 +1212,7 @@
       })
     ]);
   }
-  function render$1(_ctx, _cache) {
+  function render(_ctx, _cache) {
     return e$1.openBlock(), e$1.createElementBlock("svg", {
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 20 20",
@@ -1242,7 +1227,7 @@
       })
     ]);
   }
-  const _hoisted_1$c = { class: "mt-2.5 h-auto w-full px-3.5 text-base font-bold text-[#c6c6c6]" };
+  const _hoisted_1$b = { class: "mt-2.5 h-auto w-full px-3.5 text-base font-bold text-[#c6c6c6]" };
   const _hoisted_2$a = {
     key: 0,
     class: "absolute right-20 inline-block rounded-xl bg-[#ff9000] px-2 text-sm text-black"
@@ -1252,11 +1237,12 @@
     props: {
       title: {},
       isFold: { type: Boolean },
-      isSpecial: { type: Boolean }
+      isSpecial: { type: Boolean },
+      specialName: {}
     },
     setup(__props) {
       return (_ctx, _cache) => {
-        return e$1.openBlock(), e$1.createElementBlock("div", _hoisted_1$c, [
+        return e$1.openBlock(), e$1.createElementBlock("div", _hoisted_1$b, [
           e$1.createVNode(e$1.unref(N), {
             "default-open": !_ctx.isFold
           }, {
@@ -1270,8 +1256,8 @@
               }, {
                 default: e$1.withCtx(() => [
                   e$1.createElementVNode("span", null, e$1.toDisplayString(_ctx.title || "Disclosure Title"), 1),
-                  _ctx.isSpecial ? (e$1.openBlock(), e$1.createElementBlock("span", _hoisted_2$a, "SPECIAL")) : e$1.createCommentVNode("", true),
-                  e$1.createVNode(e$1.unref(render$2), {
+                  _ctx.isSpecial ? (e$1.openBlock(), e$1.createElementBlock("span", _hoisted_2$a, e$1.toDisplayString(_ctx.specialName ? _ctx.specialName : "SPECIAL"), 1)) : e$1.createCommentVNode("", true),
+                  e$1.createVNode(e$1.unref(render$1), {
                     class: e$1.normalizeClass([{
                       "rotate-180": open
                     }, "h-6 w-6"])
@@ -2094,9 +2080,9 @@
     }
     return { width, height };
   }
-  const _hoisted_1$b = { class: "font-serif text-xl text-white" };
+  const _hoisted_1$a = { class: "font-serif text-xl text-white" };
   const _hoisted_2$9 = { class: "mb-2 text-xl font-semibold" };
-  const _hoisted_3$5 = { class: "text-white" };
+  const _hoisted_3$4 = { class: "text-white" };
   const _hoisted_4$4 = { class: "rounded-md bg-[#ff9000] p-1 text-black" };
   const _hoisted_5$2 = { class: "no-scrollbar flex min-h-[calc(100%-2.5rem)] flex-1 flex-col p-2" };
   const _sfc_main$b = /* @__PURE__ */ e$1.defineComponent({
@@ -2169,9 +2155,9 @@
             ref: bar,
             class: "sticky top-0 z-10 w-full cursor-move bg-[#0e0e0e] py-1.5 text-center"
           }, [
-            e$1.createElementVNode("div", _hoisted_1$b, [
+            e$1.createElementVNode("div", _hoisted_1$a, [
               e$1.createElementVNode("h3", _hoisted_2$9, [
-                e$1.createElementVNode("span", _hoisted_3$5, e$1.toDisplayString(_ctx.title.split("&")[0]), 1),
+                e$1.createElementVNode("span", _hoisted_3$4, e$1.toDisplayString(_ctx.title.split("&")[0]), 1),
                 e$1.createElementVNode("span", _hoisted_4$4, e$1.toDisplayString(_ctx.title.split("&")[1]), 1)
               ])
             ]),
@@ -2202,7 +2188,7 @@
       };
     }
   });
-  const _hoisted_1$a = {
+  const _hoisted_1$9 = {
     key: 0,
     class: "mb-1.5"
   };
@@ -2215,7 +2201,7 @@
     setup(__props) {
       return (_ctx, _cache) => {
         var _a;
-        return ((_a = _ctx.description) == null ? undefined : _a.length) ? (e$1.openBlock(), e$1.createElementBlock("div", _hoisted_1$a, [
+        return ((_a = _ctx.description) == null ? undefined : _a.length) ? (e$1.openBlock(), e$1.createElementBlock("div", _hoisted_1$9, [
           e$1.createElementVNode("div", _hoisted_2$8, [
             (e$1.openBlock(true), e$1.createElementBlock(e$1.Fragment, null, e$1.renderList(_ctx.description, (line, index) => {
               return e$1.openBlock(), e$1.createElementBlock("div", { key: index }, [
@@ -2772,6 +2758,12 @@
     }
     return "pornhub";
   };
+  const xVideosPage = () => {
+    return "xvideos";
+  };
+  const xHamsterPage = () => {
+    return "xhamster";
+  };
   const ans = () => {
     log(host);
     switch (host) {
@@ -2792,6 +2784,10 @@
         return _91PornPage();
       case "91porna.com":
         return _91PornaPage();
+      case "www.xvideos.com":
+        return xVideosPage();
+      case "zh.xhamster.com":
+        return xHamsterPage();
       default:
         return "";
     }
@@ -2811,6 +2807,7 @@
   const isPage91PornVideo = () => ans() === "91porn-video";
   const isPage91PornV = () => ans() === "91porn-v";
   const isPage91Porna = () => ans() === "91porna" || ans().startsWith("91porna-");
+  const isPageXVideos = () => ans() === "xvideos" || ans().startsWith("xvideos-");
   const languages = {
     "zh-CN": language$1,
     "en-US": language
@@ -2832,13 +2829,17 @@
     }
   }
   let lang = PGStorage.get("language", "zh-CN");
+  if (!Object.keys(languages).includes(lang)) {
+    lang = "zh-CN";
+    PGStorage.set("language", "zh-CN");
+  }
   if (!isPageMissAv()) {
     lang = "zh-CN";
   }
   const i18n = new I18n(lang);
-  const _hoisted_1$9 = { class: "flex w-full flex-1 flex-row rounded-xl p-3.5 hover:bg-[#2f2f2f]" };
+  const _hoisted_1$8 = { class: "flex w-full flex-1 flex-row rounded-xl p-3.5 hover:bg-[#2f2f2f]" };
   const _hoisted_2$7 = { class: "ml-2 flex-1 self-center" };
-  const _hoisted_3$4 = { class: "mx-2 mb-2 flex flex-1 flex-col p-1 text-[#c6c6c6]" };
+  const _hoisted_3$3 = { class: "mx-2 mb-2 flex flex-1 flex-col p-1 text-[#c6c6c6]" };
   const _hoisted_4$3 = ["placeholder"];
   const _hoisted_5$1 = { class: "mt-4 flex justify-around" };
   const _sfc_main$9 = /* @__PURE__ */ e$1.defineComponent({
@@ -2878,7 +2879,7 @@
       return (_ctx, _cache) => {
         var _a;
         return e$1.openBlock(), e$1.createElementBlock(e$1.Fragment, null, [
-          e$1.createElementVNode("label", _hoisted_1$9, [
+          e$1.createElementVNode("label", _hoisted_1$8, [
             e$1.createElementVNode("span", _hoisted_2$7, e$1.toDisplayString(_ctx.name), 1),
             e$1.createElementVNode("button", {
               type: "button",
@@ -2910,7 +2911,7 @@
             default: e$1.withCtx(() => {
               var _a2;
               return [
-                e$1.createElementVNode("div", _hoisted_3$4, [
+                e$1.createElementVNode("div", _hoisted_3$3, [
                   ((_a2 = _ctx.editorDescription) == null ? undefined : _a2.length) ? (e$1.openBlock(), e$1.createBlock(_sfc_main$a, {
                     key: 0,
                     class: "mb-3",
@@ -2949,9 +2950,9 @@
       };
     }
   });
-  const _hoisted_1$8 = { class: "flex items-center justify-between p-3.5 py-1" };
+  const _hoisted_1$7 = { class: "flex items-center justify-between p-3.5 py-1" };
   const _hoisted_2$6 = { class: "ml-2 text-white" };
-  const _hoisted_3$3 = { class: "relative w-2/5" };
+  const _hoisted_3$2 = { class: "relative w-2/5" };
   const _hoisted_4$2 = { class: "block truncate text-gray-200" };
   const _hoisted_5 = { class: "pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2" };
   const _hoisted_6 = {
@@ -2999,19 +3000,19 @@
       return (_ctx, _cache) => {
         var _a;
         return e$1.openBlock(), e$1.createElementBlock(e$1.Fragment, null, [
-          e$1.createElementVNode("div", _hoisted_1$8, [
+          e$1.createElementVNode("div", _hoisted_1$7, [
             e$1.createElementVNode("div", _hoisted_2$6, e$1.toDisplayString(_ctx.name), 1),
             e$1.createVNode(e$1.unref(Ie), {
               modelValue: selectedOption.value,
               "onUpdate:modelValue": _cache[0] || (_cache[0] = ($event) => selectedOption.value = $event)
             }, {
               default: e$1.withCtx(() => [
-                e$1.createElementVNode("div", _hoisted_3$3, [
+                e$1.createElementVNode("div", _hoisted_3$2, [
                   e$1.createVNode(e$1.unref(je), { class: "relative w-full cursor-pointer rounded-2xl border-2 border-[#212121] bg-[#151515] px-2.5 py-1.5 text-left focus:bg-[#212121] focus:outline-none sm:text-sm" }, {
                     default: e$1.withCtx(() => [
                       e$1.createElementVNode("span", _hoisted_4$2, e$1.toDisplayString(selectedOption.value.name), 1),
                       e$1.createElementVNode("span", _hoisted_5, [
-                        e$1.createVNode(e$1.unref(render$1), {
+                        e$1.createVNode(e$1.unref(render), {
                           class: "h-5 w-5 text-gray-600",
                           "aria-hidden": "true"
                         })
@@ -3044,7 +3045,7 @@
                                     class: e$1.normalizeClass([selected ? "font-medium" : "font-normal", "block truncate"])
                                   }, e$1.toDisplayString(option.name), 3),
                                   selected ? (e$1.openBlock(), e$1.createElementBlock("span", _hoisted_6, [
-                                    e$1.createVNode(e$1.unref(render$3), {
+                                    e$1.createVNode(e$1.unref(render$2), {
                                       class: "h-5 w-5",
                                       "aria-hidden": "true"
                                     })
@@ -3074,9 +3075,9 @@
       };
     }
   });
-  const _hoisted_1$7 = { class: "flex items-center p-3.5" };
+  const _hoisted_1$6 = { class: "flex items-center p-3.5" };
   const _hoisted_2$5 = { class: "ml-2" };
-  const _hoisted_3$2 = ["step"];
+  const _hoisted_3$1 = ["step"];
   const _hoisted_4$1 = {
     key: 0,
     class: "ml-2"
@@ -3136,7 +3137,7 @@
       return (_ctx, _cache) => {
         var _a;
         return e$1.openBlock(), e$1.createElementBlock(e$1.Fragment, null, [
-          e$1.createElementVNode("div", _hoisted_1$7, [
+          e$1.createElementVNode("div", _hoisted_1$6, [
             e$1.createElementVNode("div", _hoisted_2$5, e$1.toDisplayString(_ctx.name), 1),
             e$1.withDirectives(e$1.createElementVNode("input", {
               type: "number",
@@ -3145,7 +3146,7 @@
               onKeydown: _cache[1] || (_cache[1] = e$1.withModifiers(() => {
               }, ["stop"])),
               class: "ml-4 block flex-1 w-1/5 rounded-2xl border-2 border-[#212121] bg-[#151515] px-2.5 py-1.5 text-sm outline-none invalid:border-red-500 focus:bg-[#212121] focus:invalid:border-red-500"
-            }, null, 40, _hoisted_3$2), [
+            }, null, 40, _hoisted_3$1), [
               [e$1.vModelText, currValue.value]
             ]),
             _ctx.addonText ? (e$1.openBlock(), e$1.createElementBlock("div", _hoisted_4$1, e$1.toDisplayString(_ctx.addonText), 1)) : e$1.createCommentVNode("", true)
@@ -3159,7 +3160,7 @@
       };
     }
   });
-  const _hoisted_1$6 = { class: "flex items-center p-3.5" };
+  const _hoisted_1$5 = { class: "flex items-center p-3.5" };
   const _hoisted_2$4 = { class: "ml-2" };
   const _sfc_main$6 = /* @__PURE__ */ e$1.defineComponent({
     __name: "StringComp",
@@ -3206,7 +3207,7 @@
       return (_ctx, _cache) => {
         var _a;
         return e$1.openBlock(), e$1.createElementBlock(e$1.Fragment, null, [
-          e$1.createElementVNode("div", _hoisted_1$6, [
+          e$1.createElementVNode("div", _hoisted_1$5, [
             e$1.createElementVNode("div", _hoisted_2$4, e$1.toDisplayString(_ctx.name), 1),
             e$1.withDirectives(e$1.createElementVNode("input", {
               type: "text",
@@ -3226,7 +3227,7 @@
       };
     }
   });
-  const _hoisted_1$5 = { class: "flex items-center" };
+  const _hoisted_1$4 = { class: "flex items-center" };
   const _hoisted_2$3 = { class: "ml-2 flex-1" };
   const _sfc_main$5 = /* @__PURE__ */ e$1.defineComponent({
     __name: "SwitchComp",
@@ -3276,7 +3277,7 @@
         return e$1.openBlock(), e$1.createElementBlock(e$1.Fragment, null, [
           e$1.createVNode(e$1.unref(oe), { class: "w-full rounded-xl p-3.5 hover:bg-[#212121]" }, {
             default: e$1.withCtx(() => [
-              e$1.createElementVNode("div", _hoisted_1$5, [
+              e$1.createElementVNode("div", _hoisted_1$4, [
                 e$1.createVNode(e$1.unref(de), { class: "flex flex-1 flex-row" }, {
                   default: e$1.withCtx(() => [
                     e$1.createElementVNode("p", _hoisted_2$3, e$1.toDisplayString(_ctx.name), 1),
@@ -3308,26 +3309,8 @@
       };
     }
   });
-  const _hoisted_1$4 = {
-    xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 1207.76 1177.927"
-  };
-  function render(_ctx, _cache) {
-    return e$1.openBlock(), e$1.createElementBlock("svg", _hoisted_1$4, _cache[0] || (_cache[0] = [
-      e$1.createElementVNode("path", {
-        fill: "#171516",
-        d: "M603.88 0C270.41 0 0 270.35 0 603.87c0 266.81 173.03 493.17 412.97 573.021 30.18 5.59 41.26-13.101 41.26-29.051 0-14.402-.56-61.968-.82-112.429-168 36.527-203.45-71.25-203.45-71.25-27.47-69.801-67.05-88.363-67.05-88.363-54.79-37.481 4.13-36.711 4.13-36.711 60.64 4.257 92.57 62.238 92.57 62.238 53.86 92.316 141.27 65.625 175.73 50.195 5.42-39.023 21.07-65.676 38.34-80.754-134.13-15.261-275.13-67.051-275.13-298.436 0-65.93 23.59-119.8 62.22-162.09-6.27-15.22-26.94-76.63 5.85-159.81 0 0 50.72-16.23 166.11 61.91 48.17-13.39 99.83-20.1 151.15-20.33 51.32.23 103.02 6.94 151.28 20.33 115.26-78.14 165.9-61.91 165.9-61.91 32.87 83.18 12.19 144.59 5.92 159.81 38.73 42.29 62.15 96.16 62.15 162.09 0 231.944-141.27 283.007-275.74 297.96 21.66 18.738 40.96 55.488 40.96 111.832 0 80.797-.7 145.828-.7 165.718 0 16.071 10.87 34.899 41.48 28.969 239.81-79.937 412.63-306.219 412.63-572.939C1207.76 270.35 937.38 0 603.88 0"
-      }, null, -1),
-      e$1.createElementVNode("path", {
-        fill: "#171516",
-        d: "M228.72 867.028c-1.33 3.008-6.05 3.906-10.35 1.844-4.38-1.973-6.83-6.063-5.42-9.071 1.3-3.086 6.03-3.945 10.4-1.886 4.39 1.972 6.89 6.105 5.37 9.113M253.19 894.313c-2.89 2.664-8.52 1.426-12.34-2.793-3.95-4.211-4.69-9.844-1.77-12.551 2.97-2.664 8.43-1.414 12.39 2.793 3.95 4.258 4.72 9.844 1.72 12.551M276.99 929.087c-3.7 2.578-9.75.168-13.49-5.204-3.7-5.371-3.7-11.816.09-14.394 3.74-2.578 9.7-.254 13.49 5.066 3.69 5.461 3.69 11.907-.09 14.532M309.61 962.688c-3.31 3.652-10.36 2.672-15.52-2.308-5.28-4.872-6.74-11.782-3.43-15.43 3.36-3.66 10.45-2.629 15.64 2.308 5.24 4.864 6.84 11.821 3.31 15.43M354.61 982.2c-1.46 4.73-8.25 6.879-15.09 4.871-6.83-2.07-11.3-7.609-9.92-12.391 1.42-4.761 8.24-7 15.13-4.851 6.82 2.062 11.3 7.562 9.88 12.371M404.04 985.821c.16 4.98-5.64 9.109-12.82 9.199-7.21.16-13.06-3.871-13.14-8.769 0-5.032 5.67-9.121 12.89-9.243 7.18-.136 13.07 3.864 13.07 8.813M450.02 977.989c.86 4.859-4.13 9.851-11.26 11.18-7.01 1.281-13.49-1.719-14.39-6.539-.87-4.981 4.21-9.969 11.21-11.258 7.14-1.242 13.53 1.679 14.44 6.617"
-      }, null, -1)
-    ]));
-  }
-  const GitHubIcon = { render };
   const _hoisted_1$3 = { class: "mt-5 flex justify-center space-x-5" };
   const _hoisted_2$2 = ["href"];
-  const _hoisted_3$1 = ["href"];
   const _sfc_main$4 = /* @__PURE__ */ e$1.defineComponent({
     __name: "AboutMeComp",
     props: {
@@ -3356,15 +3339,6 @@
                 })
               ], -1)
             ]), 8, _hoisted_2$2)
-          ]),
-          e$1.createElementVNode("li", null, [
-            e$1.createElementVNode("a", {
-              href: _ctx.greasyFork,
-              target: "_blank",
-              class: "text-gray-400 hover:text-white"
-            }, [
-              e$1.createVNode(e$1.unref(GitHubIcon))
-            ], 8, _hoisted_3$1)
           ])
         ]);
       };
@@ -3416,7 +3390,7 @@
               return e$1.createElementVNode("div", { key: i2 }, [
                 (e$1.openBlock(true), e$1.createElementBlock(e$1.Fragment, null, e$1.renderList(rule.groups, (group, j2) => {
                   return e$1.openBlock(), e$1.createElementBlock("div", { key: j2 }, [
-                    e$1.createVNode(_sfc_main$c, e$1.mergeProps({ ref_for: true }, { title: group.name, isFold: group.fold, isSpecial: rule.isSpecial }), {
+                    e$1.createVNode(_sfc_main$c, e$1.mergeProps({ ref_for: true }, { title: group.name, isFold: group.fold, isSpecial: rule.isSpecial, specialName: rule.specialName }), {
                       default: e$1.withCtx(() => [
                         (e$1.openBlock(true), e$1.createElementBlock(e$1.Fragment, null, e$1.renderList(group.items, (item, innerIndex) => {
                           return e$1.openBlock(), e$1.createElementBlock("div", { key: innerIndex }, [
@@ -3530,7 +3504,7 @@
   const originFetch = _unsafeWindow.fetch;
   const FetchInterceptor = (input, init) => {
     let requestInit = {
-      url: input.toString(),
+      url: input instanceof Request ? input.url : input.toString(),
       method: init == null ? undefined : init.method,
       credentials: init == null ? undefined : init.credentials,
       body: init == null ? undefined : init.body,
@@ -3578,7 +3552,7 @@
       });
     }).then((res) => {
       if (!res.ok) {
-        console.log("error: ", requestInit.url);
+        console.log("error: ", requestInit);
         throw new Error(`Unexpected status code: ${res.status}`);
       }
       const resClone = res.clone();
@@ -3593,7 +3567,10 @@
         for (let i2 = 0; i2 < afterResponseFuncs.length; i2++) {
           globalPromise2 = globalPromise2.then((prevResp) => {
             interceptorResponse = prevResp || interceptorResponse;
-            return afterResponseFuncs[i2](interceptorResponse, requestInit);
+            return afterResponseFuncs[i2](
+              interceptorResponse,
+              requestInit
+            );
           });
         }
         globalPromise2 = globalPromise2.then((prevResp) => {
@@ -3961,7 +3938,7 @@
     global2.XMLHttpRequest = XHRInterceptor;
     global2.fetch = FetchInterceptor;
   };
-  const commonBasicItems$5 = [
+  const commonBasicItems$6 = [
     {
       type: "switch",
       id: "jabletv-remove-ads",
@@ -3992,7 +3969,7 @@
       defaultEnable: true
     }
   ];
-  const commonHeaderItems$4 = [
+  const commonHeaderItems$5 = [
     {
       type: "switch",
       id: "jabletv-common-header-hide-logo",
@@ -4055,16 +4032,16 @@
       name: i18n.language.jabletv.common.header.hide_settings
     }
   ];
-  const commonGroups$5 = [
+  const commonGroups$6 = [
     {
       name: i18n.language.jabletv.common.basic.name,
       fold: true,
-      items: commonBasicItems$5
+      items: commonBasicItems$6
     },
     {
       name: i18n.language.jabletv.common.header.name,
       fold: true,
-      items: commonHeaderItems$4
+      items: commonHeaderItems$5
     }
   ];
   const homepageBasicItems = [
@@ -4571,11 +4548,11 @@
       items: videoToolbarItems$2
     }
   ];
-  const commonStyle$5 = 'html[jabletv-remove-ads] div.plyr__ads,html[jabletv-remove-ads] div:has(>div>img[src="//cdn.tapioni.com/ab-banner.png"]),html[jabletv-remove-ads] div.asg-interstitial:has(>div>iframe),html[jabletv-remove-ads] section>div.row>div:has(>div>div.detail>h6>a[href^="https://go."]),html[jabletv-remove-ads] #site-content>div.container>section:has(>div>div>iframe),html[jabletv-remove-ads] #site-content>div.container>section:has(>div>div>img[src*=".afcdn.net"]),html[jabletv-remove-ads] div.row>div:has(div[id^=exo-native-widget-]),html[jabletv-remove-ads] section.video-info>div.text-center>ins,html[jabletv-remove-ads] section.video-info>div.text-center>div:has(>div>iframe),html[jabletv-remove-ads] div.text-center>a[href^="http://s."],html[jabletv-remove-ads] div.row>div:has(>div[id^=exoNativeWidget]),html[jabletv-remove-ads] div.row>div:has(h6>a[href^="https://r."]),html[jabletv-remove-ads] #site-content>div.container>section:has(>iframe),html[jabletv-remove-ads] section.video-info>div.text-center>iframe,html[jabletv-remove-ads] #site-content>div>div>div.col.right-sidebar>div.text-center>iframe,html[jabletv-remove-ads] body>div[class^=root--],html[jabletv-remove-ads] div[id^=asg-],html[jabletv-remove-ads] #site-content>div.container>section:has(>a[target=_blank]>img),html[jabletv-remove-ads] body>div.h5.text-center:has(>span):has(>a[target=_blank]){display:none!important}html[jabletv-hide-footer] #site-footer{display:none!important}html[jabletv-common-header-hide-logo] #site-header>div>div>div:has(>a.logo){visibility:hidden!important}html[jabletv-common-header-hide-new] #site-header>div>div>div>nav>div>ul>li:has(a[href="/new-release/"]){display:none!important}html[jabletv-common-header-hide-blu-ray] body>nav>div.container>div.row>div:has(a[href^="https://r."]),html[jabletv-common-header-hide-blu-ray] #site-header>div>div>div>nav>div>ul>li:has(a[href^="https://r."]){display:none!important}html[jabletv-common-header-hide-live-sex] body>nav>div.container>div.row>div:has(a[href^="https://go."]),html[jabletv-common-header-hide-live-sex] #site-header>div>div>div>nav>div>ul>li:has(a[href^="https://go."]){display:none!important}html[jabletv-common-header-hide-best-porns] body>nav>div.container>div.row>div:has(a[href="https://141jj.com"]),html[jabletv-common-header-hide-best-porns] #site-header>div>div>div>nav>div>ul>li:has(a[href="https://141jj.com"]){display:none!important}html[jabletv-common-header-hide-more-sites] body>nav>div.container>div.row>div:has(a[href^="https://theporndude.com"]),html[jabletv-common-header-hide-more-sites] #site-header>div>div>div>nav>div>ul>li:has(a[href^="https://theporndude.com"]){display:none!important}html[jabletv-common-header-hide-sex-chat] body>nav>div.container>div.row>div:has(a[href="https://uuw73.com"]),html[jabletv-common-header-hide-sex-chat] #site-header>div>div>div>nav>div>ul>li:has(a[href="https://uuw73.com"]){display:none!important}html[jabletv-common-header-hide-javhd] body>nav>div.container>div.row>div:has(a[href^="https://enter."]),html[jabletv-common-header-hide-javhd] #site-header>div>div>div>nav>div>ul>li:has(a[href^="https://enter."]){display:none!important}html[jabletv-common-header-hide-search] #site-header>div>div>div.col-auto.header-right>div.search{display:none!important}html[jabletv-common-header-hide-lang] #site-header>div>div>div.header-right>div.lang{display:none!important}html[jabletv-common-header-hide-settings] #site-header>div>div>div.header-right>div.settings{display:none!important}';
+  const commonStyle$6 = 'html[jabletv-remove-ads] div.plyr__ads,html[jabletv-remove-ads] div:has(>div>img[src="//cdn.tapioni.com/ab-banner.png"]),html[jabletv-remove-ads] div.asg-interstitial:has(>div>iframe),html[jabletv-remove-ads] section>div.row>div:has(>div>div.detail>h6>a[href^="https://go."]),html[jabletv-remove-ads] #site-content>div.container>section:has(>div>div>iframe),html[jabletv-remove-ads] #site-content>div.container>section:has(>div>div>img[src*=".afcdn.net"]),html[jabletv-remove-ads] div.row>div:has(div[id^=exo-native-widget-]),html[jabletv-remove-ads] section.video-info>div.text-center>ins,html[jabletv-remove-ads] section.video-info>div.text-center>div:has(>div>iframe),html[jabletv-remove-ads] div.text-center>a[href^="http://s."],html[jabletv-remove-ads] div.row>div:has(>div[id^=exoNativeWidget]),html[jabletv-remove-ads] div.row>div:has(h6>a[href^="https://r."]),html[jabletv-remove-ads] #site-content>div.container>section:has(>iframe),html[jabletv-remove-ads] section.video-info>div.text-center>iframe,html[jabletv-remove-ads] #site-content>div>div>div.col.right-sidebar>div.text-center>iframe,html[jabletv-remove-ads] body>div[class^=root--],html[jabletv-remove-ads] div[id^=asg-],html[jabletv-remove-ads] #site-content>div.container>section:has(>a[target=_blank]>img),html[jabletv-remove-ads] body>div.h5.text-center:has(>span):has(>a[target=_blank]){display:none!important}html[jabletv-hide-footer] #site-footer{display:none!important}html[jabletv-common-header-hide-logo] #site-header>div>div>div:has(>a.logo){visibility:hidden!important}html[jabletv-common-header-hide-new] #site-header>div>div>div>nav>div>ul>li:has(a[href="/new-release/"]){display:none!important}html[jabletv-common-header-hide-blu-ray] body>nav>div.container>div.row>div:has(a[href^="https://r."]),html[jabletv-common-header-hide-blu-ray] #site-header>div>div>div>nav>div>ul>li:has(a[href^="https://r."]){display:none!important}html[jabletv-common-header-hide-live-sex] body>nav>div.container>div.row>div:has(a[href^="https://go."]),html[jabletv-common-header-hide-live-sex] #site-header>div>div>div>nav>div>ul>li:has(a[href^="https://go."]){display:none!important}html[jabletv-common-header-hide-best-porns] body>nav>div.container>div.row>div:has(a[href="https://141jj.com"]),html[jabletv-common-header-hide-best-porns] #site-header>div>div>div>nav>div>ul>li:has(a[href="https://141jj.com"]){display:none!important}html[jabletv-common-header-hide-more-sites] body>nav>div.container>div.row>div:has(a[href^="https://theporndude.com"]),html[jabletv-common-header-hide-more-sites] #site-header>div>div>div>nav>div>ul>li:has(a[href^="https://theporndude.com"]){display:none!important}html[jabletv-common-header-hide-sex-chat] body>nav>div.container>div.row>div:has(a[href="https://uuw73.com"]),html[jabletv-common-header-hide-sex-chat] #site-header>div>div>div>nav>div>ul>li:has(a[href="https://uuw73.com"]){display:none!important}html[jabletv-common-header-hide-javhd] body>nav>div.container>div.row>div:has(a[href^="https://enter."]),html[jabletv-common-header-hide-javhd] #site-header>div>div>div>nav>div>ul>li:has(a[href^="https://enter."]){display:none!important}html[jabletv-common-header-hide-search] #site-header>div>div>div.col-auto.header-right>div.search{display:none!important}html[jabletv-common-header-hide-lang] #site-header>div>div>div.header-right>div.lang{display:none!important}html[jabletv-common-header-hide-settings] #site-header>div>div>div.header-right>div.settings{display:none!important}';
   const homepageStyle = "html[jabletv-home-page-basic-blur-video-image] div.video-img-box>div.img-box>a>img{filter:blur(5px)}html[jabletv-home-page-basic-blur-video-title] div.video-img-box>div.detail>h6.title>a{filter:blur(5px)}html[jabletv-home-page-basic-hide-video-likes] div.video-img-box>div.img-box>a>div.absolute-bottom-left{display:none!important}html[jabletv-home-page-basic-hide-video-duration] div.video-img-box>div.img-box>a>div.absolute-bottom-right{display:none!important}html[jabletv-home-page-basic-revert-full-title] div.video-img-box>div.detail>h6.title:has(>a){white-space:normal!important;max-height:none!important}html[jabletv-home-page-basic-hide-video-data] div.video-img-box>div.detail>p.sub-title{display:none!important}html[jabletv-home-page-hide-video-carousel] #site-content>div.jable-carousel.jable-animate{display:none!important}html[jabletv-home-page-hide-section-sub-title] #site-content>div.container>section>div>div>div.title-with-more>div.title-box>h6.sub-title.inactive-color,html[jabletv-home-page-hide-section-sub-title] #site-content>div.container>section>div.title-with-more>div.title-box>h6.sub-title.inactive-color{display:none!important}";
   const searchStyle$1 = "html[jabletv-home-page-basic-blur-video-image] div.video-img-box>div.img-box>a>img{filter:blur(5px)}html[jabletv-home-page-basic-blur-video-title] div.video-img-box>div.detail>h6.title>a{filter:blur(5px)}html[jabletv-home-page-basic-hide-video-likes] div.video-img-box>div.img-box>a>div.absolute-bottom-left{display:none!important}html[jabletv-home-page-basic-hide-video-duration] div.video-img-box>div.img-box>a>div.absolute-bottom-right{display:none!important}html[jabletv-home-page-basic-revert-full-title] div.video-img-box>div.detail>h6.title:has(>a){white-space:normal!important;max-height:none!important}html[jabletv-home-page-basic-hide-video-data] div.video-img-box>div.detail>p.sub-title{display:none!important}";
   const videoStyle$3 = "html[jabletv-home-page-basic-blur-video-image] div.video-img-box>div.img-box>a>img{filter:blur(5px)}html[jabletv-home-page-basic-blur-video-title] div.video-img-box>div.detail>h6.title>a{filter:blur(5px)}html[jabletv-home-page-basic-hide-video-likes] div.video-img-box>div.img-box>a>div.absolute-bottom-left{display:none!important}html[jabletv-home-page-basic-hide-video-duration] div.video-img-box>div.img-box>a>div.absolute-bottom-right{display:none!important}html[jabletv-home-page-basic-revert-full-title] div.video-img-box>div.detail>h6.title:has(>a){white-space:normal!important;max-height:none!important}html[jabletv-home-page-basic-hide-video-data] div.video-img-box>div.detail>p.sub-title{display:none!important}html[jabletv-video-page-hide-bpx-player-state-wrap] div.plyr button.plyr__control--overlaid[data-plyr=play]:has(span.plyr__sr-only){display:none!important}html[jabletv-video-page-hide-bpx-player-ctrl-play] div.plyr__controls button.plyr__controls__item[data-plyr=play],html[jabletv-video-page-hide-bpx-player-ctrl-progress] div.plyr__controls div.plyr__controls__item.plyr__progress__container,html[jabletv-video-page-hide-bpx-player-ctrl-time] div.plyr__controls div.plyr__controls__item.plyr__time--current.plyr__time{display:none!important}html[jabletv-video-page-hide-bpx-player-ctrl-volume] div.plyr__controls div.plyr__controls__item.plyr__volume:has(button[data-plyr=mute]){display:none!important}html[jabletv-video-page-hide-bpx-player-ctrl-setting] div.plyr__controls div.plyr__controls__item.plyr__menu:has(button[data-plyr=settings]){display:none!important}html[jabletv-video-page-hide-bpx-player-ctrl-pip] div.plyr__controls button.plyr__controls__item[data-plyr=pip],html[jabletv-video-page-hide-bpx-player-ctrl-full] div.plyr__controls button.plyr__controls__item[data-plyr=fullscreen]{display:none!important}html[jabletv-video-page-hide-below-info-data] section.video-info>div.info-header>div.header-left>h6{display:none!important}html[jabletv-video-page-hide-below-info-tips] section.video-info>h5.desc{display:none!important}html[jabletv-video-page-hide-below-info-type-time] section.video-info>div.info-header>div.header-right{display:none!important}html[jabletv-video-page-hide-below-info-fav] section.video-info>div.text-center>div>button:has(>span.count){display:none!important}html[jabletv-video-page-hide-below-info-mark] section.video-info>div.text-center>div>button:nth-child(2){display:none!important}html[jabletv-video-page-hide-below-info-more] section.video-info>div.text-center>div>button[data-toggle=dropdown]{display:none!important}html[jabletv-video-page-hide-below-info-tags] section.video-info>div.text-center>h5.tags{display:none!important}html[jabletv-video-page-hide-below-info-new-comment] section.comments>div.new-comment{display:none!important}html[jabletv-video-page-hide-below-info-comments] #video_comments_video_comments{display:none!important}";
-  const rules$6 = [
+  const rules$7 = [
     {
       name: "javletv-homepage",
       groups: homepageGroups,
@@ -4596,13 +4573,13 @@
     },
     {
       name: "javletv-common",
-      groups: commonGroups$5,
-      style: commonStyle$5,
+      groups: commonGroups$6,
+      style: commonStyle$6,
       isSpecial: true,
       checkFn: () => isPageJableTv()
     }
   ];
-  const commonBasicItems$4 = [
+  const commonBasicItems$5 = [
     {
       type: "switch",
       id: "missav-common-basic-remove-ads",
@@ -4690,6 +4667,198 @@
         });
       }
     }
+    // {
+    //     type: 'list',
+    //     id: 'missav-common-basic-web-locale',
+    //     name: '网站地区',
+    //     defaultValue: 'en',
+    //     disableValue: '',
+    //     options: [
+    //         {
+    //             id: 'cn',
+    //             name: 'cn',
+    //         },
+    //         {
+    //             id: 'en',
+    //             name: 'en',
+    //         },
+    //         {
+    //             id: 'ja',
+    //             name: 'ja',
+    //         },
+    //         {
+    //             id: 'ko',
+    //             name: 'ko',
+    //         },
+    //         {
+    //             id: 'ms',
+    //             name: 'ms',
+    //         },
+    //         {
+    //             id: 'th',
+    //             name: 'th',
+    //         },
+    //         {
+    //             id: 'de',
+    //             name: 'de',
+    //         },
+    //         {
+    //             id: 'fr',
+    //             name: 'fr',
+    //         },
+    //         {
+    //             id: 'vi',
+    //             name: 'vi',
+    //         },
+    //         {
+    //             id: 'id',
+    //             name: 'id',
+    //         },
+    //         {
+    //             id: 'fil',
+    //             name: 'fil',
+    //         },
+    //         {
+    //             id: 'pt',
+    //             name: 'pt',
+    //         },
+    //     ],
+    //     fn: (id:string) => {
+    //         // const fallbackLocale = 'zh';
+    //         function removeTrailingSlash(url: string) {
+    //             if (url.substr(url.length - 1) === '/') {
+    //                 return url.slice(0, -1);
+    //             }
+    //             return url.replace('/?', '?');
+    //         }
+    //         function localizedUrl(locale: string) {
+    //             let path = window.location.pathname;
+    //             if (!path.endsWith('/')) {
+    //                 path = `${path}/`;
+    //             }
+    //             path = path + window.location.search;
+    //             // if (locale === this.fallbackLocale) {
+    //             //     return removeTrailingSlash(
+    //             //         path
+    //             //             .replace('/cn/', '/')
+    //             //             .replace('/en/', '/')
+    //             //             .replace('/ja/', '/')
+    //             //             .replace('/ko/', '/')
+    //             //             .replace('/ms/', '/')
+    //             //             .replace('/th/', '/')
+    //             //             .replace('/de/', '/')
+    //             //             .replace('/fr/', '/')
+    //             //             .replace('/vi/', '/')
+    //             //             .replace('/id/', '/')
+    //             //             .replace('/fil/', '/')
+    //             //             .replace('/pt/', '/'),
+    //             //     );
+    //             // }
+    //             if (
+    //                 path.includes('/cn/') ||
+    //                 path.includes('/en/') ||
+    //                 path.includes('/ja/') ||
+    //                 path.includes('/ko/') ||
+    //                 path.includes('/ms/') ||
+    //                 path.includes('/th/') ||
+    //                 path.includes('/de/') ||
+    //                 path.includes('/fr/') ||
+    //                 path.includes('/vi/') ||
+    //                 path.includes('/id/') ||
+    //                 path.includes('/fil/') ||
+    //                 path.includes('/pt/')
+    //             ) {
+    //                 return removeTrailingSlash(
+    //                     path
+    //                         .replace('/cn/', `/${locale}/`)
+    //                         .replace('/en/', `/${locale}/`)
+    //                         .replace('/ja/', `/${locale}/`)
+    //                         .replace('/ko/', `/${locale}/`)
+    //                         .replace('/ms/', `/${locale}/`)
+    //                         .replace('/th/', `/${locale}/`)
+    //                         .replace('/de/', `/${locale}/`)
+    //                         .replace('/fr/', `/${locale}/`)
+    //                         .replace('/vi/', `/${locale}/`)
+    //                         .replace('/id/', `/${locale}/`)
+    //                         .replace('/fil/', `/${locale}/`)
+    //                         .replace('/pt/', `/${locale}/`),
+    //                 );
+    //             }
+    //             return removeTrailingSlash(`/${locale}${path}`);
+    //         }
+    //         window.location.href = localizedUrl(id);
+    //     },
+    // },
+    // {
+    //     type:'switch',
+    //     id:'missav-common-basic-auto-web-locale',
+    //     name:'自动 切换地区',
+    //     noStyle:true,
+    //     enableFn:()=> {
+    //         function removeTrailingSlash(url: string) {
+    //             if (url.substr(url.length - 1) === '/') {
+    //                 return url.slice(0, -1);
+    //             }
+    //             return url.replace('/?', '?');
+    //         }
+    //         function localizedUrl(locale: string) {
+    //             let path = window.location.pathname;
+    //             if (!path.endsWith('/')) {
+    //                 path = `${path}/`;
+    //             }
+    //             path = path + window.location.search;
+    //             // if (locale === this.fallbackLocale) {
+    //             //     return removeTrailingSlash(
+    //             //         path
+    //             //             .replace('/cn/', '/')
+    //             //             .replace('/en/', '/')
+    //             //             .replace('/ja/', '/')
+    //             //             .replace('/ko/', '/')
+    //             //             .replace('/ms/', '/')
+    //             //             .replace('/th/', '/')
+    //             //             .replace('/de/', '/')
+    //             //             .replace('/fr/', '/')
+    //             //             .replace('/vi/', '/')
+    //             //             .replace('/id/', '/')
+    //             //             .replace('/fil/', '/')
+    //             //             .replace('/pt/', '/'),
+    //             //     );
+    //             // }
+    //             if (
+    //                 path.includes('/cn/') ||
+    //                 path.includes('/en/') ||
+    //                 path.includes('/ja/') ||
+    //                 path.includes('/ko/') ||
+    //                 path.includes('/ms/') ||
+    //                 path.includes('/th/') ||
+    //                 path.includes('/de/') ||
+    //                 path.includes('/fr/') ||
+    //                 path.includes('/vi/') ||
+    //                 path.includes('/id/') ||
+    //                 path.includes('/fil/') ||
+    //                 path.includes('/pt/')
+    //             ) {
+    //                 return removeTrailingSlash(
+    //                     path
+    //                         .replace('/cn/', `/${locale}/`)
+    //                         .replace('/en/', `/${locale}/`)
+    //                         .replace('/ja/', `/${locale}/`)
+    //                         .replace('/ko/', `/${locale}/`)
+    //                         .replace('/ms/', `/${locale}/`)
+    //                         .replace('/th/', `/${locale}/`)
+    //                         .replace('/de/', `/${locale}/`)
+    //                         .replace('/fr/', `/${locale}/`)
+    //                         .replace('/vi/', `/${locale}/`)
+    //                         .replace('/id/', `/${locale}/`)
+    //                         .replace('/fil/', `/${locale}/`)
+    //                         .replace('/pt/', `/${locale}/`),
+    //                 );
+    //             }
+    //             return removeTrailingSlash(`/${locale}${path}`);
+    //         }
+    //         window.location.href = localizedUrl(PGStorage.get('missav-common-basic-web-locale','zh'));
+    //     },
+    // }
   ];
   const commonHeaderRightItems = [
     {
@@ -4782,11 +4951,11 @@
       description: i18n.language.missav.common.header.hide_mobile_right_menu_description
     }
   ];
-  const commonGroups$4 = [
+  const commonGroups$5 = [
     {
       name: i18n.language.missav.common.basic.name,
       fold: true,
-      items: commonBasicItems$4
+      items: commonBasicItems$5
     },
     {
       name: i18n.language.missav.common.header.name,
@@ -5209,35 +5378,42 @@
       name: i18n.language.missav.video.toolbar.show_m3u8,
       description: i18n.language.missav.video.toolbar.show_m3u8_description,
       noStyle: true,
-      enableFn: () => {
-        var _a, _b, _c, _d, _e, _f, _g;
-        if (!((_a = _unsafeWindow.hls) == null ? undefined : _a.url)) return;
-        const m3u8s = [
-          { title: "playlist", url: (_b = _unsafeWindow.hls) == null ? undefined : _b.url }
-        ];
-        const baseUrl = (_d = (_c = _unsafeWindow.hls) == null ? undefined : _c.url) == null ? undefined : _d.split("playlist")[0];
-        const qualitys = (_g = (_f = (_e = _unsafeWindow.player) == null ? undefined : _e.config) == null ? undefined : _f.quality) == null ? undefined : _g.options;
-        qualitys == null ? undefined : qualitys.forEach((quality) => {
-          if (quality !== 0)
-            m3u8s.push({
-              title: `${quality}p`,
-              url: `${baseUrl}${quality}p/video.m3u8`
-            });
+      enableFn: async () => {
+        await new Promise((resolve) => {
+          const timer = setInterval(() => {
+            var _a, _b, _c, _d, _e, _f, _g;
+            if ((_a = _unsafeWindow.hls) == null ? undefined : _a.url) {
+              const m3u8s = [
+                { title: "playlist", url: (_b = _unsafeWindow.hls) == null ? undefined : _b.url }
+              ];
+              const baseUrl = (_d = (_c = _unsafeWindow.hls) == null ? undefined : _c.url) == null ? undefined : _d.split("playlist")[0];
+              const qualitys = (_g = (_f = (_e = _unsafeWindow.player) == null ? undefined : _e.config) == null ? undefined : _f.quality) == null ? undefined : _g.options;
+              qualitys == null ? undefined : qualitys.forEach((quality) => {
+                if (quality !== 0)
+                  m3u8s.push({
+                    title: `${quality}p`,
+                    url: `${baseUrl}${quality}p/video.m3u8`
+                  });
+              });
+              const m3u8Panle = e$1.createApp(M3U8Comp, {
+                m3u8s
+              });
+              m3u8Panle.mount(
+                (() => {
+                  var _a2;
+                  const node = document.createElement("div");
+                  node.id = "div-m3u8s";
+                  (_a2 = document.querySelector(
+                    "div.flex-1.order-first div.mt-4:has(h1)"
+                  )) == null ? undefined : _a2.appendChild(node);
+                  return node;
+                })()
+              );
+              clearInterval(timer);
+              resolve(true);
+            }
+          }, 100);
         });
-        const m3u8Panle = e$1.createApp(M3U8Comp, {
-          m3u8s
-        });
-        m3u8Panle.mount(
-          (() => {
-            var _a2;
-            const node = document.createElement("div");
-            node.id = "div-m3u8s";
-            (_a2 = document.querySelector(
-              "div.flex-1.order-first div.mt-4:has(h1)"
-            )) == null ? undefined : _a2.appendChild(node);
-            return node;
-          })()
-        );
       },
       disableFn: () => {
         const node = document.querySelector("#div-m3u8s");
@@ -5273,11 +5449,11 @@
       items: videoToolbarItems$1
     }
   ];
-  const commonStyle$4 = `@charset "UTF-8";html[missav-common-basic-remove-ads] #html-ads,html[missav-common-basic-remove-ads] #ts_ad_video_aes67,html[missav-common-basic-remove-ads] div.pt-16.pb-4.px-4:has(div.hidden),html[missav-common-basic-remove-ads] div[class|=root]:has(div[class|=rootContent]),html[missav-common-basic-remove-ads] div.space-y-6.mb-6:has(div.hidden),html[missav-common-basic-remove-ads] div[x-show^="currentTab === 'video_details'"] div ul,html[missav-common-basic-remove-ads] div.-m-5.mb-2:has(iframe),html[missav-common-basic-remove-ads] html iframe[id|=container],html[missav-common-basic-remove-ads] html iframe[class|=container],html[missav-common-basic-remove-ads] body div.fixed:has(>a[href^="https://bit.ly"][target=_blank]),html[missav-common-basic-remove-ads] body>div[class|=pl]:has(link),html[missav-common-basic-remove-ads] div.flex-1.order-first div.under_player{display:none!important}html[missav-common-basic-hide-footer] footer[aria-labelledby=footerHeading],html[missav-common-basic-hide-footer] #footerHeading,html[missav-common-basic-hide-footer] div.space-y-5.mb-5{display:none!important}html[missav-common-basic-hide-new-site-banner] div:has(>div>div>img[alt="MissAV takeover Fanza"]){display:none!important}html[missav-common-header-hide-logo] div a[href^="https://missav.com"] span.font-serif:has(span),html[missav-common-header-hide-logo] div a[href^="https://missav.ws"] span.font-serif:has(span){visibility:hidden!important}html[missav-common-header-hide-live-cam-sex] a[href*=myavlive],html[missav-common-header-hide-site-live] a[href^="https://missav.live"],html[missav-common-header-hide-upgrade-vip] div a[href$="/vip"],html[missav-common-header-hide-comic] a[href*=mycomic],html[missav-common-header-hide-subtitle] a[href$=-subtitle]{display:none!important}html[missav-common-header-hide-watch-jav] nav div.relative:has(>a[href="#"]):has(>div[x-show$="'jav'"]),html[missav-common-header-hide-watch-jav] div a[href="#"]:has(svg[x-show$="'jav'"]){display:none!important}html[missav-common-header-hide-amateur] nav div.relative:has(>a[href="#"]):has(>div[x-show$="'amateur'"]),html[missav-common-header-hide-amateur] div a[href="#"]:has(svg[x-show$="'amateur'"]){display:none!important}html[missav-common-header-hide-uncensored] nav div.relative:has(>a[href="#"]):has(>div[x-show$="'uncensored'"]),html[missav-common-header-hide-uncensored] div a[href="#"]:has(svg[x-show$="'uncensored'"]){display:none!important}html[missav-common-header-hide-asia-av] nav div.relative:has(>a[href="#"]):has(>div[x-show$="'madou'"]),html[missav-common-header-hide-asia-av] div a[href="#"]:has(svg[x-show$="'madou'"]){display:none!important}html[missav-common-header-hide-my-collection] nav div.relative:has(>a[href="#"]):has(>div[x-show$="'saved'"]),html[missav-common-header-hide-my-collection] div a[href="#"]:has(svg[x-show$="'saved'"]){display:none!important}html[missav-common-header-hide-tg] div.relative>div>div>div>a[href*="https://bit.ly/3uTvrRM"]{display:none!important}html[missav-common-header-hide-more-sites] nav div.relative:has(>a[href="#"]):has(>div[x-show$="'partners'"]),html[missav-common-header-hide-more-sites] div a[href="#"]:has(svg[x-show$="'partners'"]){display:none!important}html[missav-common-header-hide-search] a[alt=検索],html[missav-common-header-hide-search] a[alt=수색],html[missav-common-header-hide-search] a[alt=Cari],html[missav-common-header-hide-search] a[alt=搜寻],html[missav-common-header-hide-search] a[alt=Search]{display:none!important}html[missav-common-header-hide-locale-switcher] div.relative:has(>a[href="#"]):has(>div[x-show$=showLocaleSwitcher]){display:none!important}html[missav-common-header-hide-mobile-right-menu] div div.relative:has(>a[href="#"]):has(>div[x-show$="'mobile'"]){display:none!important}`;
+  const commonStyle$5 = `@charset "UTF-8";html[missav-common-basic-remove-ads] #html-ads,html[missav-common-basic-remove-ads] #ts_ad_video_aes67,html[missav-common-basic-remove-ads] div.pt-16.pb-4.px-4:has(div.hidden),html[missav-common-basic-remove-ads] div[class|=root]:has(div[class|=rootContent]),html[missav-common-basic-remove-ads] div.space-y-6.mb-6:has(div.hidden),html[missav-common-basic-remove-ads] div[x-show^="currentTab === 'video_details'"] div ul,html[missav-common-basic-remove-ads] div.-m-5.mb-2:has(iframe),html[missav-common-basic-remove-ads] html iframe[id|=container],html[missav-common-basic-remove-ads] html iframe[class|=container],html[missav-common-basic-remove-ads] body div.fixed:has(>a[href^="https://bit.ly"][target=_blank]),html[missav-common-basic-remove-ads] body>div[class|=pl]:has(link),html[missav-common-basic-remove-ads] div.flex-1.order-first div.under_player{display:none!important}html[missav-common-basic-hide-footer] footer[aria-labelledby=footerHeading],html[missav-common-basic-hide-footer] #footerHeading,html[missav-common-basic-hide-footer] div.space-y-5.mb-5{display:none!important}html[missav-common-basic-hide-new-site-banner] div:has(>div>div>img[alt="MissAV takeover Fanza"]){display:none!important}html[missav-common-header-hide-logo] div a[href^="https://missav.com"] span.font-serif:has(span),html[missav-common-header-hide-logo] div a[href^="https://missav.ws"] span.font-serif:has(span){visibility:hidden!important}html[missav-common-header-hide-live-cam-sex] a[href*=myavlive],html[missav-common-header-hide-site-live] a[href^="https://missav.live"],html[missav-common-header-hide-upgrade-vip] div a[href$="/vip"],html[missav-common-header-hide-comic] a[href*=mycomic],html[missav-common-header-hide-subtitle] a[href$=-subtitle]{display:none!important}html[missav-common-header-hide-watch-jav] nav div.relative:has(>a[href="#"]):has(>div[x-show$="'jav'"]),html[missav-common-header-hide-watch-jav] div a[href="#"]:has(svg[x-show$="'jav'"]){display:none!important}html[missav-common-header-hide-amateur] nav div.relative:has(>a[href="#"]):has(>div[x-show$="'amateur'"]),html[missav-common-header-hide-amateur] div a[href="#"]:has(svg[x-show$="'amateur'"]){display:none!important}html[missav-common-header-hide-uncensored] nav div.relative:has(>a[href="#"]):has(>div[x-show$="'uncensored'"]),html[missav-common-header-hide-uncensored] div a[href="#"]:has(svg[x-show$="'uncensored'"]){display:none!important}html[missav-common-header-hide-asia-av] nav div.relative:has(>a[href="#"]):has(>div[x-show$="'madou'"]),html[missav-common-header-hide-asia-av] div a[href="#"]:has(svg[x-show$="'madou'"]){display:none!important}html[missav-common-header-hide-my-collection] nav div.relative:has(>a[href="#"]):has(>div[x-show$="'saved'"]),html[missav-common-header-hide-my-collection] div a[href="#"]:has(svg[x-show$="'saved'"]){display:none!important}html[missav-common-header-hide-tg] div.relative>div>div>div>a[href*="https://bit.ly/3uTvrRM"]{display:none!important}html[missav-common-header-hide-more-sites] nav div.relative:has(>a[href="#"]):has(>div[x-show$="'partners'"]),html[missav-common-header-hide-more-sites] div a[href="#"]:has(svg[x-show$="'partners'"]){display:none!important}html[missav-common-header-hide-search] a[alt=検索],html[missav-common-header-hide-search] a[alt=수색],html[missav-common-header-hide-search] a[alt=Cari],html[missav-common-header-hide-search] a[alt=搜寻],html[missav-common-header-hide-search] a[alt=Search]{display:none!important}html[missav-common-header-hide-locale-switcher] div.relative:has(>a[href="#"]):has(>div[x-show$=showLocaleSwitcher]){display:none!important}html[missav-common-header-hide-mobile-right-menu] div div.relative:has(>a[href="#"]):has(>div[x-show$="'mobile'"]){display:none!important}`;
   const homeStyle = 'html[missav-home-page-basic-hide-search-title] div.is-home.content-without-search div div h1:has(span.text-primary){display:none!important}html[missav-home-page-basic-hide-search-box] div.is-home.content-without-search div.flex.flex-col.justify-center.content-center.text-center,html[missav-home-page-basic-hide-search-history] div[x-show="searchHistory.length"],html[missav-home-page-basic-hide-video-genres] div a[x-show^="item.dvd_id &&"] span,html[missav-home-page-basic-hide-video-duration] div a[x-show="item.dvd_id"] span{display:none!important}html[missav-home-page-basic-revert-full-title] div.thumbnail.group div.truncate:has(a[x-text="item.full_title"]){white-space:normal!important}html[missav-home-page-basic-revert-full-title] div.flex-1 div div.max-h-14:has(a[x-text="item.full_title"]){max-height:none!important}html[missav-home-page-basic-blur-video-image] div.relative.rounded.overflow-hidden.shadow-lg,html[missav-home-page-basic-blur-video-title] div.text-sm a[x-text="item.full_title"]{filter:blur(5px)}';
   const searchStyle = 'html[missav-home-page-basic-hide-video-genres] div a[x-show^="item.dvd_id &&"] span,html[missav-home-page-basic-hide-video-duration] div a[x-show="item.dvd_id"] span{display:none!important}html[missav-home-page-basic-revert-full-title] div.thumbnail.group div.truncate:has(>a),html[missav-home-page-basic-revert-full-title] div.thumbnail.group div.truncate:has(a[x-text="item.full_title"]){white-space:normal!important}html[missav-home-page-basic-revert-full-title] div.flex-1 div div.max-h-14:has(a[x-text="item.full_title"]){max-height:none!important}html[missav-home-page-basic-blur-video-image] div.relative.rounded.overflow-hidden.shadow-lg,html[missav-home-page-basic-blur-video-title] div.text-sm a[x-text="item.full_title"]{filter:blur(5px)}';
   const videoStyle$2 = 'html[missav-home-page-basic-hide-video-genres] div a[x-show^="item.dvd_id &&"] span,html[missav-home-page-basic-hide-video-duration] div a[x-show="item.dvd_id"] span{display:none!important}html[missav-home-page-basic-revert-full-title] div.thumbnail.group div.truncate:has(a[x-text="item.full_title"]),html[missav-home-page-basic-revert-full-title] div.flex-1 div div.max-h-14:has(a[x-text="item.full_title"]){white-space:normal!important;max-height:none!important}html[missav-home-page-basic-blur-video-image] div.relative.rounded.overflow-hidden.shadow-lg,html[missav-home-page-basic-blur-video-title] div.text-sm a[x-text="item.full_title"]{filter:blur(5px)}html[missav-video-page-player-hide-new-site-banner] div>div[x-show=showNewDomainNotice]{display:none!important}html[missav-video-page-player-hide-play-btn] div.plyr button.plyr__control--overlaid[data-plyr=play]:has(span.plyr__sr-only){display:none!important}html[missav-video-page-player-ctrl-hide-prev] div.plyr__controls button.plyr__controls__item[data-plyr=rewind],html[missav-video-page-player-ctrl-hide-play] div.plyr__controls button.plyr__controls__item[data-plyr=play],html[missav-video-page-player-ctrl-hide-next] div.plyr__controls button.plyr__controls__item[data-plyr=fast-forward],html[missav-video-page-player-ctrl-hide-progress] div.plyr__controls div.plyr__controls__item.plyr__progress__container,html[missav-video-page-player-ctrl-hide-subtitle] div.plyr__controls button.plyr__controls__item[data-plyr=captions]{display:none!important}html[missav-video-page-player-ctrl-hide-volume] div.plyr__controls div.plyr__controls__item.plyr__volume:has(button[data-plyr=mute]){display:none!important}html[missav-video-page-player-ctrl-hide-setting] div.plyr__controls div.plyr__controls__item.plyr__menu:has(button[data-plyr=settings]){display:none!important}html[missav-video-page-player-ctrl-hide-pip] div.plyr__controls button.plyr__controls__item[data-plyr=pip],html[missav-video-page-player-ctrl-hide-full] div.plyr__controls button.plyr__controls__item[data-plyr=fullscreen]{display:none!important}html[missav-video-page-player-ctrl-hide-jump] div.content-without-search>div>div.order-first>div>div.justify-between.bg-black:has(>span.isolate){display:none!important}html[missav-video-page-player-ctrl-hide-loop] div.content-without-search>div>div.order-first>div>div.bg-black:has(>div.flex.items-center.flex-nowrap>div.grow){display:none!important}html[missav-video-page-toolbar-hide-save] div button:has(svg[x-show$=saved]){display:none!important}html[missav-video-page-toolbar-hide-playlist] div button.shadow-sm:has(svg[stroke-width]){display:none!important}html[missav-video-page-toolbar-hide-download] div a[href^="https://rapidgator.net"]:has(svg){display:none!important}html[missav-video-page-toolbar-hide-share] div button.shadow-sm:has(svg[aria-hidden]){display:none!important}html[missav-video-page-toolbar-auto-show-more] div[x-show^=currentTab] div div[x-data*=showMore] div.text-secondary.break-all{overflow:visible!important;display:block!important;-webkit-box-orient:horizontal!important;-webkit-line-clamp:none!important}html[missav-video-page-toolbar-auto-show-more] div[x-show^=currentTab] div div[x-data*=showMore] div:has(a[href="#"]){display:none!important}';
-  const rules$5 = [
+  const rules$6 = [
     {
       name: "missav-home",
       groups: homeGroups,
@@ -5298,13 +5474,13 @@
     },
     {
       name: "missav-common",
-      groups: commonGroups$4,
-      style: commonStyle$4,
+      groups: commonGroups$5,
+      style: commonStyle$5,
       isSpecial: true,
       checkFn: () => isPageMissAv()
     }
   ];
-  const commonBasicItems$3 = [
+  const commonBasicItems$4 = [
     {
       type: "switch",
       id: "pornhub-remove-ads",
@@ -5348,7 +5524,7 @@
       defaultEnable: true
     }
   ];
-  const commonHeaderItems$3 = [
+  const commonHeaderItems$4 = [
     {
       type: "switch",
       id: "pornhub-common-hide-nav-network-bar",
@@ -5571,16 +5747,16 @@
       id: "pornhub-common-hide-nav-desktop-recommend"
     }
   ];
-  const commonGroups$3 = [
+  const commonGroups$4 = [
     {
       name: "全站通用 - 基本功能",
       fold: true,
-      items: commonBasicItems$3
+      items: commonBasicItems$4
     },
     {
       name: "全站通用 - 顶栏",
       fold: true,
-      items: commonHeaderItems$3
+      items: commonHeaderItems$4
     },
     {
       name: "全站通用 - 左侧菜单",
@@ -5709,9 +5885,9 @@
       items: videoToolbarItems
     }
   ];
-  const commonStyle$3 = 'html[pornhub-remove-ads] #hd-leftColVideoPage>div.topSectionGrid>div.sideColumn.original>div.sideAds,html[pornhub-remove-ads] #relatedVideosListing>li.js-nativeTjVideoGrid.js_promoItem:has(>div>iframe),html[pornhub-remove-ads] #hd-leftColVideoPage>div.topSectionGrid>div.videoWrapModelInfo.original>div>div.hd.clear.original,html[pornhub-remove-ads] #videoSearchResult>li.sniperModeEngaged.alpha:has(>div),html[pornhub-remove-ads] #videoSearchResult>li.emptyBlockSpace,html[pornhub-remove-ads] #singleFeedSection>li.emptyBlockSpace,html[pornhub-remove-ads] #singleFeedSection>li.sniperModeEngaged.alpha:has(>div),html[pornhub-remove-ads] #pb_iframe,html[pornhub-remove-ads] #relatedVideosCenter>li.js_promoItem:has(>div>iframe),html[pornhub-remove-ads] #hd-leftColVideoPage>div>div.hd.clear.original:has(>div>iframe),html[pornhub-remove-ads] #hd-rightColVideoPage>div.clearfix:has(>div>div>iframe),html[pornhub-remove-ads] body>div:has(>iframe),html[pornhub-remove-ads] div:has(>ins[style="width:950px;height:250px;display:block;margin:0 auto;"]){display:none!important}html[pornhub-hide-footer] div.footerContentWrapper,html[pornhub-hide-footer] #footer,html[pornhub-hide-footer] div.logoFooterWrapper.homePageFooter,html[pornhub-hide-adblock] #js-abContainterMain{display:none!important}html[pornhub-common-hide-nav-network-bar] body>div.networkBarWrapper{display:none!important}html[pornhub-common-hide-nav-desktop] #desktopNavigation{display:none!important}html[pornhub-common-hide-nav-logo] #headerContainer>div>div>div.logoWrapper{visibility:hidden!important}html[pornhub-common-hide-nav-search] #headerSearchWrapperFree{display:none!important}html[pornhub-common-hide-nav-search-recent] #searchesWrapperScroll>search-list[type=recent]{display:none!important}html[pornhub-common-hide-nav-search-trending] #searchesWrapperScroll>search-list[type=trending]{display:none!important}html[pornhub-common-hide-nav-search-pornstar] #searchesWrapperScroll>search-list[type=pornstar]{display:none!important}html[pornhub-common-hide-nav-upload-btn-spicevids] #headerContainer>div.headerContainerColumn.withSearch.withCustomPromoBtn>div.uploadBtnContentSpicevids{display:none!important}html[pornhub-common-hide-nav-upload-btn] #headerContainer>div.headerContainerColumn.withSearch.withCustomPromoBtn>div.uploadBtnContent{display:none!important}html[pornhub-common-hide-nav-login] #headerLoginLink{display:none!important}html[pornhub-common-hide-nav-home] li[itemprop=name]:has(>a.js-topMenuLink[href="/"]){display:none!important}html[pornhub-common-hide-nav-video] li[itemprop=name]:has(>a.js-topMenuLink[href="/video"]){display:none!important}html[pornhub-common-hide-nav-categories] li[itemprop=name]:has(>a.js-topMenuLink[href="/categories"]){display:none!important}html[pornhub-common-hide-nav-live-cams] li[itemprop=name]:has(>a.js-topMenuLink[data-label2="Live Cams"]){display:none!important}html[pornhub-common-hide-nav-pornstars] li[itemprop=name]:has(>a.js-topMenuLink[href="/pornstars"]){display:none!important}html[pornhub-common-hide-nav-fuck-now] li:has(>a.js-topMenuLink[data-label2="Fuck Now"]){display:none!important}html[pornhub-common-hide-nav-community] li[itemprop=name]:has(>a.js-topMenuLink[href="/community"]){display:none!important}html[pornhub-common-hide-nav-albums] li[itemprop=name]:has(>a.js-topMenuLink[href="/albums"]){display:none!important}html[pornhub-common-hide-nav-desktop-video] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/video"]{display:none!important}html[pornhub-common-hide-nav-desktop-shorties] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/shorties"]{display:none!important}html[pornhub-common-hide-nav-desktop-recommended] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/recommended"]{display:none!important}html[pornhub-common-hide-nav-desktop-video-ht] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/video?o=ht"]{display:none!important}html[pornhub-common-hide-nav-desktop-pornstar] #leftMenuScroll>div.menuLink.subMenuTriggerwithLink.pornstarNavigation{display:none!important}html[pornhub-common-hide-nav-desktop-active] #leftMenuScroll>a.menuLink.js-menuAnalytics.active[href="/"]{display:none!important}html[pornhub-common-hide-nav-desktop-gayporn] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/gayporn"]{display:none!important}html[pornhub-common-hide-nav-desktop-transgender] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/transgender"]{display:none!important}html[pornhub-common-hide-nav-desktop-video-27] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/video?c=27"]{display:none!important}html[pornhub-common-hide-nav-desktop-channels] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/channels"]{display:none!important}html[pornhub-common-hide-nav-desktop-categories] #leftMenuScroll>div.menuLink.subMenuTriggerwithLink.categoriesNavigation{display:none!important}html[pornhub-common-hide-nav-desktop-playlists] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/playlists"]{display:none!important}html[pornhub-common-hide-nav-desktop-gifs] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/gifs"]{display:none!important}html[pornhub-common-hide-nav-desktop-albums] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/albums"]{display:none!important}html[pornhub-common-hide-nav-desktop-community] #leftMenuScroll>div.menuLink.subMenuTriggerwithLink.communityNavigation{display:none!important}html[pornhub-common-hide-nav-desktop-Full-SPICEVIDS] #leftMenuScroll>div.menuLinkDiv{display:none!important}html[pornhub-common-hide-nav-desktop-help] #leftMenuScroll>a[href^="https://help.pornhub.com/hc/en-us/categories/"]{display:none!important}html[pornhub-common-hide-nav-desktop-uviu] #leftMenuScroll>div:has(>a[data-menu-clog=ham-uviu]){display:none!important}html[pornhub-common-hide-nav-desktop-blog] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/blog"]{display:none!important}html[pornhub-common-hide-nav-desktop-insights] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="https://www.pornhub.com/insights/"]{display:none!important}html[pornhub-common-hide-nav-desktop-sex] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="https://www.pornhub.com/sex/"]{display:none!important}html[pornhub-common-hide-nav-desktop-pornhubapparel] #leftMenuScroll>div:has(>a[href="https://pornhubapparel.com/"]){display:none!important}html[pornhub-common-hide-nav-desktop-recommend] #leftMenuScroll>div.toggleSwitchWrapper:has(>div.toggleSwitch>#recommendSwitch){display:none!important}';
+  const commonStyle$4 = 'html[pornhub-remove-ads] #hd-leftColVideoPage>div.topSectionGrid>div.sideColumn.original>div.sideAds,html[pornhub-remove-ads] #relatedVideosListing>li.js-nativeTjVideoGrid.js_promoItem:has(>div>iframe),html[pornhub-remove-ads] #hd-leftColVideoPage>div.topSectionGrid>div.videoWrapModelInfo.original>div>div.hd.clear.original,html[pornhub-remove-ads] #videoSearchResult>li.sniperModeEngaged.alpha:has(>div),html[pornhub-remove-ads] #videoSearchResult>li.emptyBlockSpace,html[pornhub-remove-ads] #singleFeedSection>li.emptyBlockSpace,html[pornhub-remove-ads] #singleFeedSection>li.sniperModeEngaged.alpha:has(>div),html[pornhub-remove-ads] #pb_iframe,html[pornhub-remove-ads] #relatedVideosCenter>li.js_promoItem:has(>div>iframe),html[pornhub-remove-ads] #hd-leftColVideoPage>div>div.hd.clear.original:has(>div>iframe),html[pornhub-remove-ads] #hd-rightColVideoPage>div.clearfix:has(>div>div>iframe),html[pornhub-remove-ads] body>div:has(>iframe),html[pornhub-remove-ads] div:has(>ins[style="width:950px;height:250px;display:block;margin:0 auto;"]){display:none!important}html[pornhub-hide-footer] div.footerContentWrapper,html[pornhub-hide-footer] #footer,html[pornhub-hide-footer] div.logoFooterWrapper.homePageFooter,html[pornhub-hide-adblock] #js-abContainterMain{display:none!important}html[pornhub-common-hide-nav-network-bar] body>div.networkBarWrapper{display:none!important}html[pornhub-common-hide-nav-desktop] #desktopNavigation{display:none!important}html[pornhub-common-hide-nav-logo] #headerContainer>div>div>div.logoWrapper{visibility:hidden!important}html[pornhub-common-hide-nav-search] #headerSearchWrapperFree{display:none!important}html[pornhub-common-hide-nav-search-recent] #searchesWrapperScroll>search-list[type=recent]{display:none!important}html[pornhub-common-hide-nav-search-trending] #searchesWrapperScroll>search-list[type=trending]{display:none!important}html[pornhub-common-hide-nav-search-pornstar] #searchesWrapperScroll>search-list[type=pornstar]{display:none!important}html[pornhub-common-hide-nav-upload-btn-spicevids] #headerContainer>div.headerContainerColumn.withSearch.withCustomPromoBtn>div.uploadBtnContentSpicevids{display:none!important}html[pornhub-common-hide-nav-upload-btn] #headerContainer>div.headerContainerColumn.withSearch.withCustomPromoBtn>div.uploadBtnContent{display:none!important}html[pornhub-common-hide-nav-login] #headerLoginLink{display:none!important}html[pornhub-common-hide-nav-home] li[itemprop=name]:has(>a.js-topMenuLink[href="/"]){display:none!important}html[pornhub-common-hide-nav-video] li[itemprop=name]:has(>a.js-topMenuLink[href="/video"]){display:none!important}html[pornhub-common-hide-nav-categories] li[itemprop=name]:has(>a.js-topMenuLink[href="/categories"]){display:none!important}html[pornhub-common-hide-nav-live-cams] li[itemprop=name]:has(>a.js-topMenuLink[data-label2="Live Cams"]){display:none!important}html[pornhub-common-hide-nav-pornstars] li[itemprop=name]:has(>a.js-topMenuLink[href="/pornstars"]){display:none!important}html[pornhub-common-hide-nav-fuck-now] li:has(>a.js-topMenuLink[data-label2="Fuck Now"]){display:none!important}html[pornhub-common-hide-nav-community] li[itemprop=name]:has(>a.js-topMenuLink[href="/community"]){display:none!important}html[pornhub-common-hide-nav-albums] li[itemprop=name]:has(>a.js-topMenuLink[href="/albums"]){display:none!important}html[pornhub-common-hide-nav-desktop-video] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/video"]{display:none!important}html[pornhub-common-hide-nav-desktop-shorties] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/shorties"]{display:none!important}html[pornhub-common-hide-nav-desktop-recommended] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/recommended"]{display:none!important}html[pornhub-common-hide-nav-desktop-video-ht] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/video?o=ht"]{display:none!important}html[pornhub-common-hide-nav-desktop-pornstar] #leftMenuScroll>div.menuLink.subMenuTriggerwithLink.pornstarNavigation{display:none!important}html[pornhub-common-hide-nav-desktop-active] #leftMenuScroll>a.menuLink.js-menuAnalytics.active[href="/"]{display:none!important}html[pornhub-common-hide-nav-desktop-gayporn] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/gayporn"]{display:none!important}html[pornhub-common-hide-nav-desktop-transgender] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/transgender"]{display:none!important}html[pornhub-common-hide-nav-desktop-video-27] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/video?c=27"]{display:none!important}html[pornhub-common-hide-nav-desktop-channels] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/channels"]{display:none!important}html[pornhub-common-hide-nav-desktop-categories] #leftMenuScroll>div.menuLink.subMenuTriggerwithLink.categoriesNavigation{display:none!important}html[pornhub-common-hide-nav-desktop-playlists] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/playlists"]{display:none!important}html[pornhub-common-hide-nav-desktop-gifs] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/gifs"]{display:none!important}html[pornhub-common-hide-nav-desktop-albums] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/albums"]{display:none!important}html[pornhub-common-hide-nav-desktop-community] #leftMenuScroll>div.menuLink.subMenuTriggerwithLink.communityNavigation{display:none!important}html[pornhub-common-hide-nav-desktop-Full-SPICEVIDS] #leftMenuScroll>div.menuLinkDiv{display:none!important}html[pornhub-common-hide-nav-desktop-help] #leftMenuScroll>a[href^="https://help.pornhub.com/hc/en-us/categories/"]{display:none!important}html[pornhub-common-hide-nav-desktop-uviu] #leftMenuScroll>div:has(>a[data-menu-clog=ham-uviu]){display:none!important}html[pornhub-common-hide-nav-desktop-blog] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="/blog"]{display:none!important}html[pornhub-common-hide-nav-desktop-insights] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="https://www.pornhub.com/insights/"]{display:none!important}html[pornhub-common-hide-nav-desktop-sex] #leftMenuScroll>a.menuLink.js-menuAnalytics[href="https://www.pornhub.com/sex/"]{display:none!important}html[pornhub-common-hide-nav-desktop-pornhubapparel] #leftMenuScroll>div:has(>a[href="https://pornhubapparel.com/"]){display:none!important}html[pornhub-common-hide-nav-desktop-recommend] #leftMenuScroll>div.toggleSwitchWrapper:has(>div.toggleSwitch>#recommendSwitch){display:none!important}';
   const videoStyle$1 = "html[jabletv-video-page-hide-bpx-player-state-wrap] div.plyr button.plyr__control--overlaid[data-plyr=play]:has(span.plyr__sr-only){display:none!important}html[pornhub-video-page-hide-below-info-rating-info] #hd-leftColVideoPage>div.topSectionGrid>div.videoWrapModelInfo.original>div>div.video-actions-menu>div.ratingInfo,html[pornhub-video-page-hide-below-info-rating-info] #hd-leftColVideoPage>div>div.video-actions-menu>div.ratingInfo{display:none!important}html[pornhub-video-page-hide-below-info-actions-container] #hd-leftColVideoPage>div.topSectionGrid>div.videoWrapModelInfo.original>div>div.video-actions-menu>div.allActionsContainer.tooltipWrapper,html[pornhub-video-page-hide-below-info-actions-container] #hd-leftColVideoPage>div>div.video-actions-menu>div.allActionsContainer.tooltipWrapper{display:none!important}html[pornhub-video-page-hide-below-info-user-info] #hd-leftColVideoPage>div.topSectionGrid>div.videoWrapModelInfo.original>div>div.video-actions-container>div.video-actions-tabs>div.video-action-tab.about-tab.active>div.video-detailed-info,html[pornhub-video-page-hide-below-info-user-info] #hd-leftColVideoPage>div>div.video-actions-container>div.video-actions-tabs>div.video-action-tab.about-tab.active>div.video-detailed-info{display:none!important}html[pornhub-video-page-hide-below-info-action] #hd-leftColVideoPage>div>div.video-actions-container>div.video-actions-tabs>div.video-action-tab.about-tab.active>div.video-detailed-info>div.video-info-row.userRow>div.userActions{display:none!important}html[pornhub-video-page-hide-below-info-comments] #under-player-comments,html[pornhub-video-page-hide-below-info-playlists] #under-player-playlists{display:none!important}";
-  const rules$4 = [
+  const rules$5 = [
     {
       name: "pornhub-video",
       groups: videoGroups$1,
@@ -5720,13 +5896,13 @@
     },
     {
       name: "pornhub-common",
-      groups: commonGroups$3,
-      style: commonStyle$3,
+      groups: commonGroups$4,
+      style: commonStyle$4,
       isSpecial: true,
       checkFn: isPagePornHub
     }
   ];
-  const commonBasicItems$2 = [
+  const commonBasicItems$3 = [
     {
       type: "switch",
       id: "91porn-remove-ads",
@@ -5761,7 +5937,7 @@
       defaultEnable: true
     }
   ];
-  const commonHeaderItems$2 = [
+  const commonHeaderItems$3 = [
     {
       type: "switch",
       id: "91porn-hide-header-top-menu-language",
@@ -5932,16 +6108,16 @@
       attrName: "hide-header-submenu-category-mf"
     }
   ];
-  const commonGroups$2 = [
+  const commonGroups$3 = [
     {
       name: "全站通用 - 基本功能",
       fold: true,
-      items: commonBasicItems$2
+      items: commonBasicItems$3
     },
     {
       name: "全站通用 - Header",
       fold: true,
-      items: commonHeaderItems$2
+      items: commonHeaderItems$3
     }
   ];
   const vBasicItems = [];
@@ -6043,6 +6219,7 @@
               if (node.tagName !== "SCRIPT") return false;
               if (!node.innerText.includes(`videojs`)) return false;
               node.parentNode.removeChild(node);
+              if (!window.videojs) return false;
               window.player = window.videojs(
                 "player_one"
               );
@@ -6178,14 +6355,14 @@
       items: videoHeaderItems
     }
   ];
-  const commonStyle$2 = 'html[remove-ads] #row>iframe,html[remove-ads] #videodetails>div:has(>a>img.ad_img),html[remove-ads] #videodetails>iframe,html[remove-ads] body>div:has(>div[align=center]>div.cont6){display:none!important}html[hide-footer] #footer-container{display:none!important}html[show-video-full-title] #row>div.well>a>span.video-title,html[show-video-full-title] #wrapper>div.container.container-minheight>div.row>div>div.row>div>div.well>a>span.video-title{white-space:normal!important;max-height:none!important}html[hide-header-top-menu-language] div.top-nav>div>ul>div.pull-left>form[name=language_form]{display:none!important}html[hide-header-top-menu-signup] div.top-nav>div>ul>div.pull-right>li:has(>a[href="signup.php"]){display:none!important}html[hide-header-top-menu-login] div.top-nav>div>ul>div.pull-right>li:has(>a[href="login.php"]){display:none!important}html[hide-header-navbar-header-logo] div.navbar.navbar-inverse.navbar-fixed-top>div.container>div.navbar-header:has(>a>img[src="/images/logo.png"]){display:none!important}html[hide-header-navbar-right-upload] div.navbar.navbar-inverse.navbar-fixed-top>div.container>div.navbar-collapse.collapse.navbar-inverse-collapse>ul>li:has(>a[href^="https://up"]){display:none!important}html[hide-header-navbar-right-watch] div.navbar.navbar-inverse.navbar-fixed-top>div.container>div.navbar-collapse.collapse.navbar-inverse-collapse>ul>li:has(>a[href="https://91porn.com/v.php?next=watch"]){display:none!important}html[hide-header-navbar-right-forum] div.navbar.navbar-inverse.navbar-fixed-top>div.container>div.navbar-collapse.collapse.navbar-inverse-collapse>ul>li:has(>a[href="https://t1229.btc760.com"]){display:none!important}html[hide-header-navbar-right-webcam] div.navbar.navbar-inverse.navbar-fixed-top>div.container>div.navbar-collapse.collapse.navbar-inverse-collapse>ul>li:has(>a[href="webcam.php"]){display:none!important}html[hide-header-navbar-right-ugatube] div.navbar.navbar-inverse.navbar-fixed-top>div.container>div.navbar-collapse.collapse.navbar-inverse-collapse>ul>li:has(>a[href="https://www.ugatube.com"]){display:none!important}html[hide-header-navbar-right-pay] div.navbar.navbar-inverse.navbar-fixed-top>div.container>div.navbar-collapse.collapse.navbar-inverse-collapse>ul>li:has(>a[href="pay.php"]){display:none!important}html[hide-header-submenu-my-video] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/my_video.php"]){display:none!important}html[hide-header-submenu-my-favour] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/my_favour.php"]){display:none!important}html[hide-header-submenu-my-subs-users] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/my_subs_users.php"]){display:none!important}html[hide-header-submenu-my-subs] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/my_subs.php"]){display:none!important}html[hide-header-submenu-my-comment] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/my_comment.php"]){display:none!important}html[hide-header-submenu-yqm] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/yqm.php"]){display:none!important}html[hide-header-submenu-category-ori] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=ori&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-hot] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=hot&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-top] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=top&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-long] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=long&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-longer] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=longer&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-tf] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=tf&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-rf] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=rf&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-hd] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=hd&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-top-1] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=top&m=-1&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-md] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=md&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-mf] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=mf&viewtype=basic"]){display:none!important}';
+  const commonStyle$3 = 'html[remove-ads] #row>iframe,html[remove-ads] #videodetails>div:has(>a>img.ad_img),html[remove-ads] #videodetails>iframe,html[remove-ads] body>div:has(>div[align=center]>div.cont6){display:none!important}html[hide-footer] #footer-container{display:none!important}html[show-video-full-title] #row>div.well>a>span.video-title,html[show-video-full-title] #wrapper>div.container.container-minheight>div.row>div>div.row>div>div.well>a>span.video-title{white-space:normal!important;max-height:none!important}html[hide-header-top-menu-language] div.top-nav>div>ul>div.pull-left>form[name=language_form]{display:none!important}html[hide-header-top-menu-signup] div.top-nav>div>ul>div.pull-right>li:has(>a[href="signup.php"]){display:none!important}html[hide-header-top-menu-login] div.top-nav>div>ul>div.pull-right>li:has(>a[href="login.php"]){display:none!important}html[hide-header-navbar-header-logo] div.navbar.navbar-inverse.navbar-fixed-top>div.container>div.navbar-header:has(>a>img[src="/images/logo.png"]){display:none!important}html[hide-header-navbar-right-upload] div.navbar.navbar-inverse.navbar-fixed-top>div.container>div.navbar-collapse.collapse.navbar-inverse-collapse>ul>li:has(>a[href^="https://up"]){display:none!important}html[hide-header-navbar-right-watch] div.navbar.navbar-inverse.navbar-fixed-top>div.container>div.navbar-collapse.collapse.navbar-inverse-collapse>ul>li:has(>a[href="https://91porn.com/v.php?next=watch"]){display:none!important}html[hide-header-navbar-right-forum] div.navbar.navbar-inverse.navbar-fixed-top>div.container>div.navbar-collapse.collapse.navbar-inverse-collapse>ul>li:has(>a[href="https://t1229.btc760.com"]){display:none!important}html[hide-header-navbar-right-webcam] div.navbar.navbar-inverse.navbar-fixed-top>div.container>div.navbar-collapse.collapse.navbar-inverse-collapse>ul>li:has(>a[href="webcam.php"]){display:none!important}html[hide-header-navbar-right-ugatube] div.navbar.navbar-inverse.navbar-fixed-top>div.container>div.navbar-collapse.collapse.navbar-inverse-collapse>ul>li:has(>a[href="https://www.ugatube.com"]){display:none!important}html[hide-header-navbar-right-pay] div.navbar.navbar-inverse.navbar-fixed-top>div.container>div.navbar-collapse.collapse.navbar-inverse-collapse>ul>li:has(>a[href="pay.php"]){display:none!important}html[hide-header-submenu-my-video] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/my_video.php"]){display:none!important}html[hide-header-submenu-my-favour] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/my_favour.php"]){display:none!important}html[hide-header-submenu-my-subs-users] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/my_subs_users.php"]){display:none!important}html[hide-header-submenu-my-subs] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/my_subs.php"]){display:none!important}html[hide-header-submenu-my-comment] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/my_comment.php"]){display:none!important}html[hide-header-submenu-yqm] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/yqm.php"]){display:none!important}html[hide-header-submenu-category-ori] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=ori&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-hot] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=hot&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-top] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=top&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-long] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=long&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-longer] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=longer&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-tf] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=tf&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-rf] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=rf&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-hd] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=hd&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-top-1] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=top&m=-1&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-md] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=md&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-mf] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=mf&viewtype=basic"]){display:none!important}';
   const videoStyle = 'html[hide-video-details-data] #useraction>div.boxPart:has(>span.info){display:none!important}html[hide-video-details-option] #useraction>div.boxPart:has(>div.floatmenu){display:none!important}html[hide-video-details-content] #useraction>div:has(>a[href="speed.php"]){display:none!important}html[hide-video-details-info] div.videodetails-yakov:has(>form>#fm-video_link){display:none!important}html[hide-video-details-comment] div.videodetails-yakov:has(>div>div.main_comment){display:none!important}html[hide-header-submenu-category-ori] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=ori&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-hot] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=hot&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-top] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=top&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-long] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=long&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-longer] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=longer&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-tf] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=tf&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-rf] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=rf&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-hd] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=hd&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-top-1] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=top&m=-1&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-md] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=md&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-mf] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=mf&viewtype=basic"]){display:none!important}';
   const vStyle = 'html[hide-header-submenu-category-ori] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=ori&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-hot] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=hot&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-top] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=top&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-long] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=long&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-longer] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=longer&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-tf] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=tf&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-rf] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=rf&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-hd] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=hd&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-top-1] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=top&m=-1&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-md] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=md&viewtype=basic"]){display:none!important}html[hide-header-submenu-category-mf] div.navbar.navbar-inverse.navbar-fixed-top>div.submenu>div>div>ul>li:has(>a[href="https://91porn.com/v.php?category=mf&viewtype=basic"]){display:none!important}';
-  const rules$3 = [
+  const rules$4 = [
     {
       name: "common",
-      groups: commonGroups$2,
-      style: commonStyle$2,
+      groups: commonGroups$3,
+      style: commonStyle$3,
       isSpecial: true,
       checkFn: isPage91Porn
     },
@@ -6202,7 +6379,7 @@
       checkFn: isPage91PornVideo
     }
   ];
-  const commonBasicItems$1 = [
+  const commonBasicItems$2 = [
     {
       type: "switch",
       id: "91porna-remove-ads",
@@ -6239,7 +6416,7 @@
       defaultEnable: true
     }
   ];
-  const commonHeaderItems$1 = [
+  const commonHeaderItems$2 = [
     {
       type: "switch",
       id: "91porna-hide-header-logo",
@@ -6356,16 +6533,16 @@
       defaultEnable: true
     }
   ];
-  const commonGroups$1 = [
+  const commonGroups$2 = [
     {
       name: "全站通用 - 基本功能",
       fold: true,
-      items: commonBasicItems$1
+      items: commonBasicItems$2
     },
     {
       name: "全站通用 - Header",
       fold: true,
-      items: commonHeaderItems$1
+      items: commonHeaderItems$2
     },
     {
       name: "全站通用 - Video",
@@ -6373,17 +6550,17 @@
       items: commonVideoItems
     }
   ];
-  const commonStyle$1 = '@charset "UTF-8";html[remove-ads] body>main>div>div>div>ul>li:has(>a.checkNum[target=_blank]),html[remove-ads] body>main>div>div.flex-1>div:has(>div>div.swiper),html[remove-ads] #tip_modal,html[remove-ads] body>main>div:has(>div.grid>div.dx-banner-item),html[remove-ads] body>main>div.text-mini.mb-3:has(>ul.dx-recommend-icons){display:none!important}html[hide-footer] #app-footer{display:none!important}html[show-video-full-title] body>main.app-content>div.index-content>div>ul.video-items>li>div.video-item>div>a,html[show-video-full-title] body>main.app-content>div.grid>div>div>ul.video-items>li>div.video-item>div>a>div{white-space:normal!important;max-height:none!important;overflow:none!important;display:contents!important}html[hide-footer-more-site] body>main>div:has(>ul.grid>li:nth-child(1)>a[rel="external nofollow"]>img[_type=data-src]){display:none!important}html[hide-footer-more-site-1] body>main>div:has(>ul.flex>li:nth-child(1)>a[rel="external nofollow"]){display:none!important}html[hide-header-logo] #app-header>div>div>div.app-header>div:has(>a>picture>h1>img.app-logo){display:none!important}html[hide-header-search] #app-header>div>div>div.app-header>div.search-box{display:none!important}html[hide-header-login] #app-header>div>div>div.app-header>div>div.popover-container:has(>button.btn-login){display:none!important}html[hide-header-nav-home] #app-nav>ul.dx-container>li.flex:has(>a[href="/"]){display:none!important}html[hide-header-nav-video] #app-nav>ul.dx-container>li.flex:has(>a[href="https://91porna.com/comic/index/video?category=play"]){display:none!important}html[hide-header-nav-info] #app-nav>ul.dx-container>li.flex:has(>a[href="https://91porna.com/黑料吃瓜"]){display:none!important}html[hide-header-nav-av] #app-nav>ul.dx-container>li.flex:has(>a[href="https://91porna.com/comic/index/av"]){display:none!important}html[hide-header-nav-novel] #app-nav>ul.dx-container>li.flex:has(>a[href="https://91porna.com/comic/index/postNovel"]){display:none!important}html[hide-header-nav-g-video] #app-nav>ul.dx-container>li.flex:has(>a[href="https://09bd.tcuwpcyu.cc?ref=91porna"]){display:none!important}html[hide-header-nav-app] #app-nav>ul.dx-container>li.flex:has(>a[href="https://5cde2.josojuri.cc/?code=hFQ&c=2663"]){display:none!important}html[hide-header-nav-more-site] #app-nav>ul.dx-container>li.flex:has(>a[href="https://b63.qcmvoilg.cc?ref=91porna"]){display:none!important}html[hide-header-nav-info-1] #app-nav>ul.dx-container>li.flex:has(>a[href="https://1eb3.fjobeijt.cc?ref=91porna"]){display:none!important}html[hide-header-nav-new-url] #app-nav>ul.dx-container>li.flex:has(>a[href="https://91porna.com/comic/index/links?key=home"]){display:none!important}html[hide-video-data] body>main>div>div>div>div:has(>div>svg>use[href="/static/web/icons/icons.svg#time"]){display:none!important}html[hide-video-keyword] body>main>div>div>div>div.dx-tabs>div.dx-tab-content.dx-tab-content--active>ul.text-default:has(>li.items-center>a.link[href^="https://91porna.com/comic/index/search?keyword="]){display:none!important}html[hide-video-uploader] body>main>div>div>div>div.dx-tabs>div.dx-tab-content.dx-tab-content--active>div.dx-hairline--bottom>div.items-center:has(>div>div>a[href^="https://91porna.com/comic/index/publicvideo?user_id="]){display:none!important}html[hide-video-info] body>main>div>div>div>div.dx-tabs>div.dx-tab-content.dx-tab-content--active>div.dx-hairline--bottom>h2{display:none!important}html[hide-video-more-site] body>main>div>div>div>div.dx-tabs>div.dx-tab-content.dx-tab-content--active>div.dx-hairline--bottom>div[style="color:#ccc;line-height:24px"],html[hide-video-more-site] body>main>div>div>div>div.dx-tabs>div.dx-tab-content.dx-tab-content--active>div:has(>strong.dx-subtitle),html[hide-video-more-site] body>main>div>div>div.mt-2.md\\:mt-3>div.dx-tabs.text-xl>div.dx-tab-content.dx-tab-content--active>ul.grid.items-center:has(>li.w-full>a.checkNum[target=_blank]){display:none!important}';
-  const rules$2 = [
+  const commonStyle$2 = '@charset "UTF-8";html[remove-ads] body>div.modal-backdrop.fade.in,html[remove-ads] body>main>div>div>div>ul>li:has(>a.checkNum[target=_blank]),html[remove-ads] body>main>div>div.flex-1>div:has(>div>div.swiper),html[remove-ads] #tip_modal,html[remove-ads] body>main>div:has(>div.grid>div.dx-banner-item),html[remove-ads] body>main>div.text-mini.mb-3:has(>ul.dx-recommend-icons){display:none!important}html[hide-footer] #app-footer{display:none!important}html[show-video-full-title] body>main.app-content>div.index-content>div>ul.video-items>li>div.video-item>div>a,html[show-video-full-title] body>main.app-content>div.grid>div>div>ul.video-items>li>div.video-item>div>a>div{white-space:normal!important;max-height:none!important;overflow:none!important;display:contents!important}html[hide-footer-more-site] body>main>div:has(>ul.grid>li:nth-child(1)>a[rel="external nofollow"]>img[_type=data-src]){display:none!important}html[hide-footer-more-site-1] body>main>div:has(>ul.flex>li:nth-child(1)>a[rel="external nofollow"]){display:none!important}html[hide-header-logo] #app-header>div>div>div.app-header>div:has(>a>picture>h1>img.app-logo){display:none!important}html[hide-header-search] #app-header>div>div>div.app-header>div.search-box{display:none!important}html[hide-header-login] #app-header>div>div>div.app-header>div>div.popover-container:has(>button.btn-login){display:none!important}html[hide-header-nav-home] #app-nav>ul.dx-container>li.flex:has(>a[href="/"]){display:none!important}html[hide-header-nav-video] #app-nav>ul.dx-container>li.flex:has(>a[href="https://91porna.com/comic/index/video?category=play"]){display:none!important}html[hide-header-nav-info] #app-nav>ul.dx-container>li.flex:has(>a[href="https://91porna.com/黑料吃瓜"]){display:none!important}html[hide-header-nav-av] #app-nav>ul.dx-container>li.flex:has(>a[href="https://91porna.com/comic/index/av"]){display:none!important}html[hide-header-nav-novel] #app-nav>ul.dx-container>li.flex:has(>a[href="https://91porna.com/comic/index/postNovel"]){display:none!important}html[hide-header-nav-g-video] #app-nav>ul.dx-container>li.flex:has(>a[href$=".tcuwpcyu.cc?ref=91porna"]){display:none!important}html[hide-header-nav-app] #app-nav>ul.dx-container>li.flex:has(>a[href="https://103.mrkcnifa.cc/chan-1907/aff-kz8RU"]),html[hide-header-nav-app] #app-nav>ul.dx-container>li.flex:has(>a[href="https://5cde2.josojuri.cc/?code=hFQ&c=2663"]){display:none!important}html[hide-header-nav-more-site] #app-nav>ul.dx-container>li.flex:has(>a[href$=".gjsvuqtp.cc?ref=91porna"]),html[hide-header-nav-more-site] #app-nav>ul.dx-container>li.flex:has(>a[href$=".qcmvoilg.cc?ref=91porna"]){display:none!important}html[hide-header-nav-info-1] #app-nav>ul.dx-container>li.flex:has(>a[href$=".fjobeijt.cc?ref=91porna"]){display:none!important}html[hide-header-nav-new-url] #app-nav>ul.dx-container>li.flex:has(>a[href="https://91porna.com/comic/index/links?key=home"]){display:none!important}html[hide-video-data] body>main>div>div>div>div:has(>div>svg>use[href="/static/web/icons/icons.svg#time"]){display:none!important}html[hide-video-keyword] body>main>div>div>div>div.dx-tabs>div.dx-tab-content.dx-tab-content--active>ul.text-default:has(>li.items-center>a.link[href^="https://91porna.com/comic/index/search?keyword="]){display:none!important}html[hide-video-uploader] body>main>div>div>div>div.dx-tabs>div.dx-tab-content.dx-tab-content--active>div.dx-hairline--bottom>div.items-center:has(>div>div>a[href^="https://91porna.com/comic/index/publicvideo?user_id="]){display:none!important}html[hide-video-info] body>main>div>div>div>div.dx-tabs>div.dx-tab-content.dx-tab-content--active>div.dx-hairline--bottom>h2{display:none!important}html[hide-video-more-site] body>main>div>div>div>div.dx-tabs>div.dx-tab-content.dx-tab-content--active>div.dx-hairline--bottom>div[style="color:#ccc;line-height:24px"],html[hide-video-more-site] body>main>div>div>div>div.dx-tabs>div.dx-tab-content.dx-tab-content--active>div:has(>strong.dx-subtitle),html[hide-video-more-site] body>main>div>div>div.mt-2.md\\:mt-3>div.dx-tabs.text-xl>div.dx-tab-content.dx-tab-content--active>ul.grid.items-center:has(>li.w-full>a.checkNum[target=_blank]){display:none!important}';
+  const rules$3 = [
     {
       name: "common",
-      groups: commonGroups$1,
-      style: commonStyle$1,
+      groups: commonGroups$2,
+      style: commonStyle$2,
       isSpecial: true,
       checkFn: isPage91Porna
     }
   ];
-  const commonBasicItems = [
+  const commonBasicItems$1 = [
     {
       type: "switch",
       id: "18comic-hide-top-menu-link",
@@ -6434,7 +6611,7 @@
       defaultEnable: true
     }
   ];
-  const commonHeaderItems = [
+  const commonHeaderItems$1 = [
     {
       type: "switch",
       id: "18comic-hide-header-logo",
@@ -6479,6 +6656,13 @@
       id: "18comic-hide-header-btn-forum",
       name: "隐藏 評論區",
       attrName: "hide-header-btn-forum",
+      defaultEnable: true
+    },
+    {
+      type: "switch",
+      id: "18comic-hide-header-btn-ai-chat",
+      name: "隐藏 AI Chat",
+      attrName: "hide-header-btn-ai-chat",
       defaultEnable: true
     },
     {
@@ -6633,6 +6817,158 @@
       defaultEnable: true
     }
   ];
+  const commonGroups$1 = [
+    {
+      name: "全站通用 - 基本功能",
+      fold: true,
+      items: commonBasicItems$1
+    },
+    {
+      name: "全站通用 - Header",
+      fold: true,
+      items: commonHeaderItems$1
+    },
+    {
+      name: "全站通用 - Album",
+      fold: true,
+      items: commonAlbumItems
+    }
+  ];
+  const commonStyle$1 = 'html[hide-top-menu-link] div.top-nav>div>ul>div.center>li.top-menu-m:has(>a[target=_blank]),html[hide-top-menu-link] div.top-nav>div>ul>div.pull-left>li.top-menu-link:has(>a[target=_blank]){display:none!important}html[remove-ads] #wrapper>div.hidden-lg:has(>div[class$=_sticky2]),html[remove-ads] div.panel-body>div>div.center.scramble-page.thewayhome>a[href="https://jmcomicgo.me"],html[remove-ads] #wrapper>div>div>div>div>div:has(>div.photo_center_div>div.e8c78e-4_b>div.group-notice),html[remove-ads] div.panel-body>div>div>div.e8c78e-4_b:has(>div.group-notice),html[remove-ads] #wrapper>div.container>div.row:has(>div>div.e8c78e-4_b>div.group-notice),html[remove-ads] #wrapper>div.container>div.row>div:has(>div.e8c78e-4_b>div.group-notice){display:none!important}html[hide-footer] #wrapper>div.footer-container{display:none!important}html[hide-adblock] #wrapper>div>div>div>div>div[style="font-size: 10px;text-align: center;margin: 5px;"]{display:none!important}html[hide-adult-verify] body>div.modal-backdrop.fade.in,html[hide-adult-verify] #billboard-modal{display:none!important}html[hide-float-right-daily] #wrapper>div.float-right-daily{display:none!important}html[hide-float-right-image] #wrapper>div.float-right-image{display:none!important}html[hide-header-logo] div.navbar-header>a[href="/"]>img[alt=logo]{display:none!important}html[hide-header-btn-adulta] #adulta{display:none!important}html[hide-header-btn-theme] #wrapper>div.ph-bottom>ul>li:has(>a[href="/theme"]),html[hide-header-btn-theme] ul.nav.navbar-nav.navbar-left>li:has(>a[href="/theme/"]){display:none!important}html[hide-header-btn-hmovies] #hmovies{display:none!important}html[hide-header-btn-games] #wrapper>div.ph-bottom>ul>li:has(>a[href="/games"]),html[hide-header-btn-games] ul.nav.navbar-nav.navbar-left>li:has(>a[href="/games"]){display:none!important}html[hide-header-btn-blogs] ul.nav.navbar-nav.navbar-left>li:has(>a[href="/blogs"]){display:none!important}html[hide-header-btn-forum] #wrapper>div.ph-bottom>ul>li:has(>a[href="/forum"]),html[hide-header-btn-forum] #sns,html[hide-header-btn-forum] ul.nav.navbar-nav.navbar-left>li:has(>a[href="/forum/"]){display:none!important}html[hide-header-btn-ai-chat] #wrapper>div.ph-bottom>ul>li:has(>a[href="https://s.zlinkp.com/d.php?z=5278412"]),html[hide-header-btn-ai-chat] ul.nav.navbar-nav.navbar-left>li:has(>a[href="https://s.zlinkp.com/d.php?z=5278412"]){display:none!important}html[hide-header-btn-veteran] #wrapper>div.ph-bottom>ul>li:has(>a[href="/veteran"]),html[hide-header-btn-veteran] ul.nav.navbar-nav.navbar-left>li:has(>a[href="/veteran"]){display:none!important}html[hide-header-btn-theme-toggle] div.navbar-header>div.head-right>label.switch:has(>#theme-toggle-m),html[hide-header-btn-theme-toggle] ul.nav.navbar-nav.navbar-right>li:has(>label.switch){display:none!important}html[hide-header-btn-bonus] ul.nav.navbar-nav.navbar-left>div.adult-class-main>div>a[href="/bonus"],html[hide-header-btn-bonus] ul.nav.navbar-nav.navbar-right>li:has(>a[href="/bonus"]){display:none!important}html[hide-header-btn-week] ul.nav.navbar-nav.navbar-left>div.adult-class-main>div>a[href="/week"],html[hide-header-btn-week] ul.nav.navbar-nav.navbar-right>li:has(>a[href="/week"]){display:none!important}html[hide-header-btn-phone] ul.nav.navbar-nav.navbar-right>li:has(>a[target=_blank]>i.fa-mobile-alt){display:none!important}html[hide-header-btn-album] ul.nav.navbar-nav.navbar-right>li:has(>a[href^="/album/"]){display:none!important}html[hide-header-btn-user] ul.nav.navbar-nav.navbar-right>li:has(>a[data-toggle=modal]>i.fa-user-circle),html[hide-header-btn-user] ul.nav.navbar-nav.navbar-right>li:has(>a[href="#login-modal"]){display:none!important}html[hide-header-btn-search] div.navbar-header>div.head-right>div.dropdown:has(>a>i.fa-search),html[hide-header-btn-search] ul.nav.navbar-nav.navbar-right>li:has(>a[href="#"]>i.fa-search){display:none!important}html[hide-header-btn-notice] div.navbar-collapse>div>ul>li:has(>a[href="https://jmc8763.one/mpSWW7"]){display:none!important}html[hide-header-btn-up-comic] div.navbar-collapse>div>ul>li:has(>a[href="/"]){display:none!important}html[hide-header-btn-ad-mail] ul.nav.navbar-nav.navbar-left>div.adult-class-main>div>li:has(>a[href="mailto:www18comic@gmail.com"]),html[hide-header-btn-ad-mail] div.navbar-collapse>div>ul>li:has(>a[href="mailto:www18comic@gmail.com"]){display:none!important}html[hide-header-btn-pay] div.navbar-collapse>div>ul>li:has(>a[href="https://jmc8763.one/dFTN82"]){display:none!important}html[hide-header-btn-shunt] #click_fl2,html[hide-header-btn-shunt] div.navbar-collapse>div>ul>li:has(>a[href="#shunt-modal"]){display:none!important}html[hide-header-btn-language] ul.nav.navbar-nav.navbar-left>div.adult-class-main>div>li:has(>span[href="#language-modal"]),html[hide-header-btn-language] div.navbar-collapse>div>ul>li:has(>a[href="#language-modal"]){display:none!important}html[hide-header-btn-url-copy] ul.nav.navbar-nav.navbar-left>li.copy-block:has(>#copy){display:none!important}html[hide-thumb-albums-latest] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>div.thumb-overlay-albums>div.label-latest,html[hide-thumb-albums-latest] #wrapper>div.container>div.row>div>div.row>div>div>div.thumb-overlay-albums>div.label-latest{display:none!important}html[hide-thumb-albums-category] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>div.thumb-overlay-albums>div.category-icon,html[hide-thumb-albums-category] #wrapper>div.container>div.row>div>div.row>div>div>div.thumb-overlay-albums>div.category-icon{display:none!important}html[hide-thumb-albums-likes] #related_comics>div.row>div>div.owl-stage-outer>div>div>div>div.gamelib_block_footer>span:has(>a.blog-like),html[hide-thumb-albums-likes] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>div.thumb-overlay-albums>div.label-loveicon,html[hide-thumb-albums-likes] #wrapper>div.container>div.row>div>div.row>div>div>div.thumb-overlay-albums>div.label-loveicon{display:none!important}html[hide-thumb-albums-bookmark] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>div.thumb-overlay-albums>div.label-star,html[hide-thumb-albums-bookmark] #wrapper>div.container>div.row>div>div.row>div>div>div.thumb-overlay-albums>div.label-star{display:none!important}html[hide-thumb-albums-title] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>span.video-title,html[hide-thumb-albums-title] #wrapper>div.container>div.row>div>div.row>div>div>span.video-title{display:none!important}html[show-thumb-albums-full-title] #related_comics>div.row>div>div.owl-stage-outer>div>div>div>a>div.title,html[show-thumb-albums-full-title] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>span.video-title,html[show-thumb-albums-full-title] #wrapper>div.container>div.row>div>div.row>div>div>span.video-title{white-space:normal!important;max-height:none!important}html[hide-thumb-albums-author] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>div:has(>a[href*="&main_tag"]),html[hide-thumb-albums-author] #wrapper>div.container>div.row>div>div.row>div>div>div:has(>a[href*="&main_tag"]){display:none!important}html[hide-thumb-albums-tags] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>div.title-truncate.tags,html[hide-thumb-albums-tags] #wrapper>div.container>div.row>div>div.row>div>div>div.title-truncate.tags{display:none!important}';
+  const rules$2 = [
+    {
+      name: "common",
+      groups: commonGroups$1,
+      style: commonStyle$1,
+      isSpecial: true,
+      checkFn: isPage18Comic
+    }
+  ];
+  const commonBasicItems = [
+    {
+      type: "switch",
+      id: "xvideos-remove-ads",
+      name: "移除 广告",
+      attrName: "remove-ads",
+      defaultEnable: true
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-footer",
+      name: "隐藏 页底footer",
+      attrName: "hide-footer",
+      defaultEnable: true
+    }
+  ];
+  const commonHeaderItems = [
+    {
+      type: "switch",
+      id: "xvideos-hide-header-logo",
+      name: "隐藏 LOGO",
+      attrName: "hide-header-logo"
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-header-btn-language",
+      name: "隐藏 选择语言",
+      attrName: "hide-header-btn-language"
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-header-btn-localisation",
+      name: "隐藏 选择地区",
+      attrName: "hide-header-btn-localisation"
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-header-btn-main-cat",
+      name: "隐藏 性别喜好",
+      attrName: "hide-header-btn-main-cat"
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-header-btn-search",
+      name: "隐藏 搜索框",
+      attrName: "hide-header-btn-search"
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-header-btn-user",
+      name: "隐藏 user",
+      attrName: "hide-header-btn-user"
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-header-btn-theme-switch",
+      name: "隐藏 主题切换",
+      attrName: "hide-header-btn-theme-switch"
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-header-btn-setting",
+      name: "隐藏 设置",
+      attrName: "hide-header-btn-setting"
+    }
+  ];
+  const commonNavItems = [
+    {
+      type: "switch",
+      id: "xvideos-hide-nav-best",
+      name: "隐藏 最佳影片",
+      attrName: "hide-nav-best"
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-nav-tags",
+      name: "隐藏 分类",
+      attrName: "hide-nav-tags"
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-nav-channels",
+      name: "隐藏 頻道",
+      attrName: "hide-nav-channels"
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-nav-pornstars",
+      name: "隐藏 色情明星",
+      attrName: "hide-nav-pornstars"
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-nav-red-ticket",
+      name: "隐藏 RED视频",
+      attrName: "hide-nav-red-ticket"
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-nav-live-cams",
+      name: "隐藏 现场直播摄影机(广告)",
+      attrName: "hide-nav-live-cams",
+      defaultEnable: true
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-nav-games",
+      name: "隐藏 遊戲(广告)",
+      attrName: "hide-nav-games",
+      defaultEnable: true
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-nav-logo",
+      name: "隐藏 约会(广告)",
+      attrName: "hide-nav-logo",
+      defaultEnable: true
+    },
+    {
+      type: "switch",
+      id: "xvideos-hide-nav-profileslist",
+      name: "隐藏 簡介",
+      attrName: "hide-nav-profileslist"
+    }
+  ];
   const commonGroups = [
     {
       name: "全站通用 - 基本功能",
@@ -6645,19 +6981,19 @@
       items: commonHeaderItems
     },
     {
-      name: "全站通用 - Album",
+      name: "全站通用 - Nav",
       fold: true,
-      items: commonAlbumItems
+      items: commonNavItems
     }
   ];
-  const commonStyle = 'html[hide-top-menu-link] div.top-nav>div>ul>div.center>li.top-menu-m:has(>a[target=_blank]),html[hide-top-menu-link] div.top-nav>div>ul>div.pull-left>li.top-menu-link:has(>a[target=_blank]){display:none!important}html[remove-ads] #wrapper>div.hidden-lg:has(>div[class$=_sticky2]),html[remove-ads] div.panel-body>div>div.center.scramble-page.thewayhome>a[href="https://jmcomicgo.me"],html[remove-ads] #wrapper>div>div>div>div>div:has(>div.photo_center_div>div.e8c78e-4_b>div.group-notice),html[remove-ads] div.panel-body>div>div>div.e8c78e-4_b:has(>div.group-notice),html[remove-ads] #wrapper>div.container>div.row:has(>div>div.e8c78e-4_b>div.group-notice),html[remove-ads] #wrapper>div.container>div.row>div:has(>div.e8c78e-4_b>div.group-notice){display:none!important}html[hide-footer] #wrapper>div.footer-container{display:none!important}html[hide-adblock] #wrapper>div>div>div>div>div[style="font-size: 10px;text-align: center;margin: 5px;"]{display:none!important}html[hide-adult-verify] body>div.modal-backdrop.fade.in,html[hide-adult-verify] #billboard-modal{display:none!important}html[hide-float-right-daily] #wrapper>div.float-right-daily{display:none!important}html[hide-float-right-image] #wrapper>div.float-right-image{display:none!important}html[hide-header-logo] div.navbar-header>a[href="/"]>img[alt=logo]{display:none!important}html[hide-header-btn-adulta] #adulta{display:none!important}html[hide-header-btn-theme] #wrapper>div.ph-bottom>ul>li:has(>a[href="/theme"]),html[hide-header-btn-theme] ul.nav.navbar-nav.navbar-left>li:has(>a[href="/theme/"]){display:none!important}html[hide-header-btn-hmovies] #hmovies{display:none!important}html[hide-header-btn-games] #wrapper>div.ph-bottom>ul>li:has(>a[href="/games"]),html[hide-header-btn-games] ul.nav.navbar-nav.navbar-left>li:has(>a[href="/games"]){display:none!important}html[hide-header-btn-blogs] ul.nav.navbar-nav.navbar-left>li:has(>a[href="/blogs"]){display:none!important}html[hide-header-btn-forum] #wrapper>div.ph-bottom>ul>li:has(>a[href="/forum"]),html[hide-header-btn-forum] #sns,html[hide-header-btn-forum] ul.nav.navbar-nav.navbar-left>li:has(>a[href="/forum/"]){display:none!important}html[hide-header-btn-veteran] #wrapper>div.ph-bottom>ul>li:has(>a[href="/veteran"]),html[hide-header-btn-veteran] ul.nav.navbar-nav.navbar-left>li:has(>a[href="/veteran"]){display:none!important}html[hide-header-btn-theme-toggle] div.navbar-header>div.head-right>label.switch:has(>#theme-toggle-m),html[hide-header-btn-theme-toggle] ul.nav.navbar-nav.navbar-right>li:has(>label.switch){display:none!important}html[hide-header-btn-bonus] ul.nav.navbar-nav.navbar-left>div.adult-class-main>div>a[href="/bonus"],html[hide-header-btn-bonus] ul.nav.navbar-nav.navbar-right>li:has(>a[href="/bonus"]){display:none!important}html[hide-header-btn-week] ul.nav.navbar-nav.navbar-left>div.adult-class-main>div>a[href="/week"],html[hide-header-btn-week] ul.nav.navbar-nav.navbar-right>li:has(>a[href="/week"]){display:none!important}html[hide-header-btn-phone] ul.nav.navbar-nav.navbar-right>li:has(>a[target=_blank]>i.fa-mobile-alt){display:none!important}html[hide-header-btn-album] ul.nav.navbar-nav.navbar-right>li:has(>a[href^="/album/"]){display:none!important}html[hide-header-btn-user] ul.nav.navbar-nav.navbar-right>li:has(>a[data-toggle=modal]>i.fa-user-circle),html[hide-header-btn-user] ul.nav.navbar-nav.navbar-right>li:has(>a[href="#login-modal"]){display:none!important}html[hide-header-btn-search] div.navbar-header>div.head-right>div.dropdown:has(>a>i.fa-search),html[hide-header-btn-search] ul.nav.navbar-nav.navbar-right>li:has(>a[href="#"]>i.fa-search){display:none!important}html[hide-header-btn-notice] div.navbar-collapse>div>ul>li:has(>a[href="https://jmc8763.one/mpSWW7"]){display:none!important}html[hide-header-btn-up-comic] div.navbar-collapse>div>ul>li:has(>a[href="/"]){display:none!important}html[hide-header-btn-ad-mail] ul.nav.navbar-nav.navbar-left>div.adult-class-main>div>li:has(>a[href="mailto:www18comic@gmail.com"]),html[hide-header-btn-ad-mail] div.navbar-collapse>div>ul>li:has(>a[href="mailto:www18comic@gmail.com"]){display:none!important}html[hide-header-btn-pay] div.navbar-collapse>div>ul>li:has(>a[href="https://jmc8763.one/dFTN82"]){display:none!important}html[hide-header-btn-shunt] #click_fl2,html[hide-header-btn-shunt] div.navbar-collapse>div>ul>li:has(>a[href="#shunt-modal"]){display:none!important}html[hide-header-btn-language] ul.nav.navbar-nav.navbar-left>div.adult-class-main>div>li:has(>span[href="#language-modal"]),html[hide-header-btn-language] div.navbar-collapse>div>ul>li:has(>a[href="#language-modal"]){display:none!important}html[hide-header-btn-url-copy] ul.nav.navbar-nav.navbar-left>li.copy-block:has(>#copy){display:none!important}html[hide-thumb-albums-latest] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>div.thumb-overlay-albums>div.label-latest,html[hide-thumb-albums-latest] #wrapper>div.container>div.row>div>div.row>div>div>div.thumb-overlay-albums>div.label-latest{display:none!important}html[hide-thumb-albums-category] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>div.thumb-overlay-albums>div.category-icon,html[hide-thumb-albums-category] #wrapper>div.container>div.row>div>div.row>div>div>div.thumb-overlay-albums>div.category-icon{display:none!important}html[hide-thumb-albums-likes] #related_comics>div.row>div>div.owl-stage-outer>div>div>div>div.gamelib_block_footer>span:has(>a.blog-like),html[hide-thumb-albums-likes] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>div.thumb-overlay-albums>div.label-loveicon,html[hide-thumb-albums-likes] #wrapper>div.container>div.row>div>div.row>div>div>div.thumb-overlay-albums>div.label-loveicon{display:none!important}html[hide-thumb-albums-bookmark] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>div.thumb-overlay-albums>div.label-star,html[hide-thumb-albums-bookmark] #wrapper>div.container>div.row>div>div.row>div>div>div.thumb-overlay-albums>div.label-star{display:none!important}html[hide-thumb-albums-title] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>span.video-title,html[hide-thumb-albums-title] #wrapper>div.container>div.row>div>div.row>div>div>span.video-title{display:none!important}html[show-thumb-albums-full-title] #related_comics>div.row>div>div.owl-stage-outer>div>div>div>a>div.title,html[show-thumb-albums-full-title] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>span.video-title,html[show-thumb-albums-full-title] #wrapper>div.container>div.row>div>div.row>div>div>span.video-title{white-space:normal!important;max-height:none!important}html[hide-thumb-albums-author] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>div:has(>a[href*="&main_tag"]),html[hide-thumb-albums-author] #wrapper>div.container>div.row>div>div.row>div>div>div:has(>a[href*="&main_tag"]){display:none!important}html[hide-thumb-albums-tags] #related_comics>div.row>ul>div.owl-stage-outer>div>div>div>div.title-truncate.tags,html[hide-thumb-albums-tags] #wrapper>div.container>div.row>div>div.row>div>div>div.title-truncate.tags{display:none!important}';
+  const commonStyle = 'html[remove-ads] #hlsplayer>div.videoad-base,html[remove-ads] #ad-header-mobile-contener,html[remove-ads] div.exo-ad-ins-div.exo-ad-playersiderectangle,html[remove-ads] div.exo-ad-ins-container.ad-support-desktop,html[remove-ads] #ad-footer,html[remove-ads] div.thumb-ad.thumb-nat-ad.thumb-nat-exo-ad{display:none!important}html[hide-footer] #page>div.remove-ads,html[hide-footer] #footer{display:none!important}html[hide-header-logo] #site-logo-link,html[hide-header-btn-language] #site-language,html[hide-header-btn-localisation] #site-localisation,html[hide-header-btn-main-cat] #site-main-cat{display:none!important}html[hide-header-btn-search] body>div.head__top.width-full-body>header>div.head__search{display:none!important}html[hide-header-btn-user] #header-mobile-right>button.head__btn:has(>span.icf-user-o){display:none!important}html[hide-header-btn-theme-switch] #site-theme-switch{display:none!important}html[hide-header-btn-setting] #header-mobile-right>button.head__btn:has(>span.icf-cog-o){display:none!important}html[hide-nav-best] #nav>nav>ul>li:has(>a[href="/best"]){display:none!important}html[hide-nav-tags] #nav>nav>ul>li:has(>#main-cats-sub-list-btn){display:none!important}html[hide-nav-channels] #nav>nav>ul>li:has(>a[href="/channels-index"]){display:none!important}html[hide-nav-pornstars] #nav>nav>ul>li:has(>a[href="/pornstars-index"]){display:none!important}html[hide-nav-red-ticket] #nav>nav>ul>li:has(>a[href="https://www.xvideos.red/red/videos"]){display:none!important}html[hide-nav-live-cams] #nav>nav>ul>li:has(>a[href="https://www.xvlivecams.com/female-cams/"]){display:none!important}html[hide-nav-games] #nav>nav>ul>li:has(>a[href="https://xvideos.nutaku.net/wl/gate/"]){display:none!important}html[hide-nav-logo] #nav>nav>ul>li:has(>a.ignore-popunder>span.icf-hearts-o),html[hide-nav-logo] #nav>nav>ul>li:has(>a[href="https://s.zlinkp.com/d.php?z=5421034"]){display:none!important}html[hide-nav-profileslist] #nav>nav>ul>li:has(>a[href="/profileslist"]){display:none!important}';
   const rules$1 = [
     {
       name: "common",
       groups: commonGroups,
       style: commonStyle,
       isSpecial: true,
-      checkFn: isPage18Comic
+      checkFn: isPageXVideos
     }
   ];
   const basicItems = [
@@ -6692,15 +7028,18 @@
       }
     ],
     isSpecial: true,
+    specialName: "SETTINGS",
     checkFn: isPageMissAv
   };
   const rules = [
+    ...rules$7,
     ...rules$6,
     ...rules$5,
     ...rules$4,
     ...rules$3,
     ...rules$2,
     ...rules$1,
+    // ...xHamsterRules,
     basicRules
   ];
   const _hoisted_1 = { class: "text-base" };
